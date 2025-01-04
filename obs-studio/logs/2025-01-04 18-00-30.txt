@@ -1,0 +1,182 @@
+18:00:30.014: Using EGL/X11
+18:00:30.014: CPU Name: AMD Ryzen 5 2600 Six-Core Processor
+18:00:30.014: CPU Speed: 1558.795MHz
+18:00:30.015: Physical Cores: 6, Logical Cores: 12
+18:00:30.015: Physical Memory: 15403MB Total, 6299MB Free
+18:00:30.015: Kernel Version: Linux 6.11.0-13-generic
+18:00:30.015: Distribution: "Ubuntu" "24.10"
+18:00:30.015: Desktop Environment: i3 (i3)
+18:00:30.015: Session Type: x11
+18:00:30.015: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.21.1
+18:00:30.016: Qt Version: 6.6.2 (runtime), 6.6.2 (compiled)
+18:00:30.016: Portable mode: false
+18:00:30.060: OBS 30.2.3.1-2 (linux)
+18:00:30.060: ---------------------------------
+18:00:30.060: ---------------------------------
+18:00:30.060: audio settings reset:
+18:00:30.060: 	samples per sec: 48000
+18:00:30.060: 	speakers:        2
+18:00:30.060: 	max buffering:   960 milliseconds
+18:00:30.060: 	buffering type:  dynamically increasing
+18:00:30.061: ---------------------------------
+18:00:30.061: Initializing OpenGL...
+18:00:30.157: Loading up OpenGL on adapter AMD AMD Radeon RX 580 Series (radeonsi, polaris10, LLVM 19.1.0, DRM 3.58, 6.11.0-13-generic)
+18:00:30.157: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 24.2.3-1ubuntu1, shading language 4.60
+18:00:30.195: ---------------------------------
+18:00:30.195: video settings reset:
+18:00:30.195: 	base resolution:   1280x720
+18:00:30.195: 	output resolution: 1280x720
+18:00:30.195: 	downscale filter:  Lanczos
+18:00:30.195: 	fps:               30/1
+18:00:30.195: 	format:            NV12
+18:00:30.195: 	YUV mode:          Rec. 709/Partial
+18:00:30.195: NV12 texture support enabled
+18:00:30.195: P010 texture support not available
+18:00:30.198: Audio monitoring device:
+18:00:30.198: 	name: Nayot’s AirPods Pro - Find My
+18:00:30.198: 	id: bluez_output.D0_3E_07_E1_84_02.1
+18:00:30.198: ---------------------------------
+18:00:30.209: Failed to load 'en-US' text for module: 'decklink-captions.so'
+18:00:30.221: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+18:00:30.232: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+18:00:30.232: Failed to initialize module 'decklink.so'
+18:00:30.353: [pipewire] No capture sources available
+18:00:30.412: [obs-backgroundremoval] Plugin loaded successfully (version 1.1.13)
+18:00:30.412: [obs-backgroundremoval] Failed to open config file /home/nayot/.config/obs-studio/plugin_config/obs-backgroundremoval/config.ini
+18:00:30.412: [obs-backgroundremoval] Failed to open config file /home/nayot/.config/obs-studio/plugin_config/obs-backgroundremoval/config.ini
+18:00:30.830: [obs-backgroundremoval] Latest release is 
+18:00:30.957: VAAPI: API version 1.22
+18:00:30.959: FFmpeg VAAPI H264 encoding supported
+18:00:30.970: FFmpeg VAAPI AV1 encoding not supported
+18:00:30.981: FFmpeg VAAPI HEVC encoding supported
+18:00:31.054: [obs-websocket] [obs_module_load] you can haz websockets (Version: 5.5.2 | RPC Version: 1)
+18:00:31.054: [obs-websocket] [obs_module_load] Qt version (compile-time): 6.6.2 | Qt version (run-time): 6.6.2
+18:00:31.054: [obs-websocket] [obs_module_load] Linked ASIO Version: 103002
+18:00:31.060: [obs-websocket] [obs_module_load] Module loaded.
+18:00:31.131: [vlc-video]: VLC 3.0.21 Vetinari found, VLC video source enabled
+18:00:31.132: ---------------------------------
+18:00:31.132:   Loaded Modules:
+18:00:31.132:     vlc-video.so
+18:00:31.132:     text-freetype2.so
+18:00:31.132:     rtmp-services.so
+18:00:31.132:     obs-x264.so
+18:00:31.132:     obs-websocket.so
+18:00:31.132:     obs-transitions.so
+18:00:31.132:     obs-outputs.so
+18:00:31.132:     obs-filters.so
+18:00:31.132:     obs-ffmpeg.so
+18:00:31.132:     obs-backgroundremoval.so
+18:00:31.132:     linux-v4l2.so
+18:00:31.132:     linux-pulseaudio.so
+18:00:31.132:     linux-pipewire.so
+18:00:31.132:     linux-jack.so
+18:00:31.132:     linux-capture.so
+18:00:31.132:     linux-alsa.so
+18:00:31.132:     image-source.so
+18:00:31.132:     frontend-tools.so
+18:00:31.132:     decklink-output-ui.so
+18:00:31.132:     decklink-captions.so
+18:00:31.132: ---------------------------------
+18:00:31.132: ---------------------------------
+18:00:31.132: Available Encoders:
+18:00:31.132:   Video Encoders:
+18:00:31.132: 	- ffmpeg_svt_av1 (SVT-AV1)
+18:00:31.132: 	- ffmpeg_aom_av1 (AOM AV1)
+18:00:31.132: 	- ffmpeg_vaapi_tex (FFmpeg VAAPI H.264)
+18:00:31.132: 	- hevc_ffmpeg_vaapi_tex (FFmpeg VAAPI HEVC)
+18:00:31.132: 	- obs_x264 (x264)
+18:00:31.132:   Audio Encoders:
+18:00:31.132: 	- ffmpeg_aac (FFmpeg AAC)
+18:00:31.132: 	- ffmpeg_opus (FFmpeg Opus)
+18:00:31.132: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bit))
+18:00:31.132: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bit))
+18:00:31.132: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bit float))
+18:00:31.132: 	- ffmpeg_alac (FFmpeg ALAC (24-bit))
+18:00:31.132: 	- ffmpeg_flac (FFmpeg FLAC (16-bit))
+18:00:31.132: ==== Startup complete ===============================================
+18:00:31.147: signal_handler_connect: signal 'file_changed' not found
+18:00:31.213: All scene data cleared
+18:00:31.213: ------------------------------------------------
+18:00:31.222: pulse-input: Server name: 'PulseAudio (on PipeWire 1.2.4) 15.0.0'
+18:00:31.222: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+18:00:31.222: pulse-input: Started recording from 'alsa_output.pci-0000_06_00.1.hdmi-stereo-extra5.monitor' (default)
+18:00:31.223: [Loaded global audio device]: 'Desktop Audio'
+18:00:31.223: pulse-input: Server name: 'PulseAudio (on PipeWire 1.2.4) 15.0.0'
+18:00:31.224: pulse-input: Audio format: s16le, 48000 Hz, 1 channels
+18:00:31.224: pulse-input: Started recording from 'alsa_input.usb-V_NO_NO_NONE_Fantech_Leviosa-00.mono-fallback'
+18:00:31.226: [Loaded global audio device]: 'Mic/Aux'
+18:00:31.226:     - filter: 'Noise Suppression' (noise_suppress_filter_v2)
+18:00:31.226:     - filter: 'Gain' (gain_filter)
+18:00:31.226:     - filter: 'Expander' (expander_filter)
+18:00:31.228: xshm-input: Geometry 2560x1080 @ 0,0
+18:00:31.233: [window-capture: 'Students'] update settings:
+18:00:31.233: 	title: Meeting (Locked)
+18:00:31.233: 	class: zoom
+18:00:31.233: 
+18:00:31.236: [window-capture: 'Chat'] update settings:
+18:00:31.236: 	title: Meeting chat
+18:00:31.236: 	class: zoom
+18:00:31.236: 
+18:00:31.372: v4l2-input: Start capture from /dev/v4l/by-path/pci-0000:01:00.0-usb-0:4:1.0-video-index0
+18:00:31.480: v4l2-input: Input: 0
+18:00:31.519: v4l2-input: Resolution: 1920x1080
+18:00:31.519: v4l2-input: Pixelformat: MJPG
+18:00:31.519: v4l2-input: Linesize: 0 Bytes
+18:00:31.539: v4l2-input: Framerate: 30.00 fps
+18:00:31.544: v4l2-input: /dev/v4l/by-path/pci-0000:01:00.0-usb-0:4:1.0-video-index0: select timeout set to 166666 (5x frame periods)
+18:00:31.547: Switched to scene 'Class + Cam'
+18:00:31.547: ------------------------------------------------
+18:00:31.547: Loaded scenes:
+18:00:31.547: - scene 'Landing Scene':
+18:00:31.547:     - source: 'Class Banner' (image_source)
+18:00:31.547:     - source: 'Course Text' (text_ft2_source_v2)
+18:00:31.547:     - source: 'buu_eng_banner' (image_source)
+18:00:31.547: - scene 'Camera Only':
+18:00:31.547:     - source: 'Webcam' (v4l2_input)
+18:00:31.547:         - filter: 'Sharpen' (sharpness_filter_v2)
+18:00:31.547:         - filter: 'Color Correction' (color_filter_v2)
+18:00:31.547:     - source: 'buu_eng_banner' (image_source)
+18:00:31.547: - scene 'Class + Cam':
+18:00:31.547:     - source: 'Webcam' (v4l2_input)
+18:00:31.547:         - filter: 'Sharpen' (sharpness_filter_v2)
+18:00:31.547:         - filter: 'Color Correction' (color_filter_v2)
+18:00:31.547:     - source: 'Students' (xcomposite_input)
+18:00:31.548:     - source: 'buu_eng_banner' (image_source)
+18:00:31.548: - scene 'Window + Big Cam':
+18:00:31.548:     - source: 'Webcam' (v4l2_input)
+18:00:31.548:         - filter: 'Sharpen' (sharpness_filter_v2)
+18:00:31.548:         - filter: 'Color Correction' (color_filter_v2)
+18:00:31.548:     - source: 'buu_eng_banner' (image_source)
+18:00:31.548:     - source: 'Window' (xshm_input)
+18:00:31.548: - scene 'Window + Cam':
+18:00:31.548:     - source: 'Webcam' (v4l2_input)
+18:00:31.548:         - filter: 'Sharpen' (sharpness_filter_v2)
+18:00:31.548:         - filter: 'Color Correction' (color_filter_v2)
+18:00:31.548:     - source: 'Window' (xshm_input)
+18:00:31.548:     - source: 'buu_eng_banner' (image_source)
+18:00:31.548: - scene 'Window + Cam + Chat':
+18:00:31.548:     - source: 'Chat' (xcomposite_input)
+18:00:31.548:     - source: 'Webcam' (v4l2_input)
+18:00:31.548:         - filter: 'Sharpen' (sharpness_filter_v2)
+18:00:31.548:         - filter: 'Color Correction' (color_filter_v2)
+18:00:31.548:     - source: 'buu_eng_banner' (image_source)
+18:00:31.548:     - source: 'Window' (xshm_input)
+18:00:31.548: - scene 'Window + Cam + Students':
+18:00:31.548:     - source: 'Webcam' (v4l2_input)
+18:00:31.548:         - filter: 'Sharpen' (sharpness_filter_v2)
+18:00:31.548:         - filter: 'Color Correction' (color_filter_v2)
+18:00:31.548:     - source: 'Students' (xcomposite_input)
+18:00:31.548:     - source: 'Window' (xshm_input)
+18:00:31.548:     - source: 'buu_eng_banner' (image_source)
+18:00:31.548: ------------------------------------------------
+18:00:31.788: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Desktop Audio)
+18:00:31.788: 
+18:00:31.831: adding 42 milliseconds of audio buffering, total audio buffering is now 64 milliseconds (source: Mic/Aux)
+18:00:31.831: 
+18:00:31.860: v4l2-input: /dev/v4l/by-path/pci-0000:01:00.0-usb-0:4:1.0-video-index0: select timed out
+18:00:31.860: v4l2-input: /dev/v4l/by-path/pci-0000:01:00.0-usb-0:4:1.0-video-index0: failed to log status
+18:00:34.147: User switched to scene 'Camera Only'
+18:01:26.375: v4l2-input: /dev/v4l/by-path/pci-0000:01:00.0-usb-0:4:1.0-video-index0: failed to enqueue buffer
+18:01:26.375: v4l2-input: /dev/v4l/by-path/pci-0000:01:00.0-usb-0:4:1.0-video-index0: Stopped capture after 1636 frames
+18:01:26.375: v4l2-helpers: unable to stop stream
+18:01:26.380: v4l2-input: Device /dev/video2 disconnected, was opened as /dev/v4l/by-path/pci-0000:01:00.0-usb-0:4:1.0-video-index0

@@ -1,0 +1,499 @@
+07:50:52.215: Using EGL/X11
+07:50:52.215: CPU Name: AMD Ryzen 5 2600 Six-Core Processor
+07:50:52.215: CPU Speed: 1550.000MHz
+07:50:52.215: Physical Cores: 6, Logical Cores: 12
+07:50:52.215: Physical Memory: 15403MB Total, 12978MB Free
+07:50:52.215: Kernel Version: Linux 6.11.0-13-generic
+07:50:52.215: Distribution: "Ubuntu" "24.10"
+07:50:52.215: Desktop Environment: i3 (i3)
+07:50:52.215: Session Type: x11
+07:50:52.215: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.21.1
+07:50:52.218: Qt Version: 6.6.2 (runtime), 6.6.2 (compiled)
+07:50:52.218: Portable mode: false
+07:50:52.306: OBS 30.2.3.1-2 (linux)
+07:50:52.306: ---------------------------------
+07:50:52.307: ---------------------------------
+07:50:52.307: audio settings reset:
+07:50:52.307: 	samples per sec: 48000
+07:50:52.307: 	speakers:        2
+07:50:52.307: 	max buffering:   960 milliseconds
+07:50:52.307: 	buffering type:  dynamically increasing
+07:50:52.310: ---------------------------------
+07:50:52.310: Initializing OpenGL...
+07:50:52.419: Loading up OpenGL on adapter AMD AMD Radeon RX 580 Series (radeonsi, polaris10, LLVM 19.1.0, DRM 3.58, 6.11.0-13-generic)
+07:50:52.419: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 24.2.3-1ubuntu1, shading language 4.60
+07:50:52.639: ---------------------------------
+07:50:52.640: video settings reset:
+07:50:52.640: 	base resolution:   1280x720
+07:50:52.640: 	output resolution: 1280x720
+07:50:52.640: 	downscale filter:  Lanczos
+07:50:52.640: 	fps:               30/1
+07:50:52.640: 	format:            NV12
+07:50:52.640: 	YUV mode:          Rec. 709/Partial
+07:50:52.640: NV12 texture support enabled
+07:50:52.640: P010 texture support not available
+07:50:52.646: Audio monitoring device:
+07:50:52.646: 	name: Default
+07:50:52.646: 	id: default
+07:50:52.647: ---------------------------------
+07:50:52.671: Failed to load 'en-US' text for module: 'decklink-captions.so'
+07:50:52.690: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+07:50:52.708: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+07:50:52.708: Failed to initialize module 'decklink.so'
+07:50:52.907: [pipewire] No capture sources available
+07:50:53.010: [obs-backgroundremoval] Plugin loaded successfully (version 1.1.13)
+07:50:53.107: [obs-backgroundremoval] Failed to open config file /home/nayot/.config/obs-studio/plugin_config/obs-backgroundremoval/config.ini
+07:50:53.107: [obs-backgroundremoval] Failed to open config file /home/nayot/.config/obs-studio/plugin_config/obs-backgroundremoval/config.ini
+07:50:53.579: [obs-backgroundremoval] Latest release is 
+07:50:53.714: VAAPI: API version 1.22
+07:50:53.716: FFmpeg VAAPI H264 encoding supported
+07:50:53.726: FFmpeg VAAPI AV1 encoding not supported
+07:50:53.737: FFmpeg VAAPI HEVC encoding supported
+07:50:53.825: [obs-websocket] [obs_module_load] you can haz websockets (Version: 5.5.2 | RPC Version: 1)
+07:50:53.825: [obs-websocket] [obs_module_load] Qt version (compile-time): 6.6.2 | Qt version (run-time): 6.6.2
+07:50:53.825: [obs-websocket] [obs_module_load] Linked ASIO Version: 103002
+07:50:53.861: [obs-websocket] [obs_module_load] Module loaded.
+07:50:53.964: [vlc-video]: VLC 3.0.21 Vetinari found, VLC video source enabled
+07:50:53.964: ---------------------------------
+07:50:53.964:   Loaded Modules:
+07:50:53.964:     vlc-video.so
+07:50:53.964:     text-freetype2.so
+07:50:53.964:     rtmp-services.so
+07:50:53.964:     obs-x264.so
+07:50:53.964:     obs-websocket.so
+07:50:53.964:     obs-transitions.so
+07:50:53.964:     obs-outputs.so
+07:50:53.964:     obs-filters.so
+07:50:53.964:     obs-ffmpeg.so
+07:50:53.964:     obs-backgroundremoval.so
+07:50:53.964:     linux-v4l2.so
+07:50:53.964:     linux-pulseaudio.so
+07:50:53.964:     linux-pipewire.so
+07:50:53.964:     linux-jack.so
+07:50:53.964:     linux-capture.so
+07:50:53.964:     linux-alsa.so
+07:50:53.964:     image-source.so
+07:50:53.964:     frontend-tools.so
+07:50:53.964:     decklink-output-ui.so
+07:50:53.964:     decklink-captions.so
+07:50:53.964: ---------------------------------
+07:50:53.966: ---------------------------------
+07:50:53.966: Available Encoders:
+07:50:53.966:   Video Encoders:
+07:50:53.966: 	- ffmpeg_svt_av1 (SVT-AV1)
+07:50:53.966: 	- ffmpeg_aom_av1 (AOM AV1)
+07:50:53.966: 	- ffmpeg_vaapi_tex (FFmpeg VAAPI H.264)
+07:50:53.966: 	- hevc_ffmpeg_vaapi_tex (FFmpeg VAAPI HEVC)
+07:50:53.966: 	- obs_x264 (x264)
+07:50:53.966:   Audio Encoders:
+07:50:53.966: 	- ffmpeg_aac (FFmpeg AAC)
+07:50:53.966: 	- ffmpeg_opus (FFmpeg Opus)
+07:50:53.966: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bit))
+07:50:53.966: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bit))
+07:50:53.966: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bit float))
+07:50:53.966: 	- ffmpeg_alac (FFmpeg ALAC (24-bit))
+07:50:53.966: 	- ffmpeg_flac (FFmpeg FLAC (16-bit))
+07:50:53.966: ==== Startup complete ===============================================
+07:50:53.986: signal_handler_connect: signal 'file_changed' not found
+07:50:54.057: All scene data cleared
+07:50:54.057: ------------------------------------------------
+07:50:54.068: pulse-input: Server name: 'PulseAudio (on PipeWire 1.2.4) 15.0.0'
+07:50:54.068: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+07:50:54.069: pulse-input: Started recording from 'alsa_output.pci-0000_06_00.1.hdmi-stereo-extra5.monitor' (default)
+07:50:54.069: [Loaded global audio device]: 'Desktop Audio'
+07:50:54.070: pulse-input: Server name: 'PulseAudio (on PipeWire 1.2.4) 15.0.0'
+07:50:54.070: pulse-input: Audio format: s16le, 48000 Hz, 1 channels
+07:50:54.070: pulse-input: Started recording from 'alsa_input.usb-V_NO_NO_NONE_Fantech_Leviosa-00.mono-fallback'
+07:50:54.071: [Loaded global audio device]: 'Mic/Aux'
+07:50:54.073: xshm-input: Geometry 2560x1080 @ 0,0
+07:50:54.077: [window-capture: 'Students'] update settings:
+07:50:54.077: 	title: unknown
+07:50:54.077: 	class: unknown
+07:50:54.077: 
+07:50:54.078: [window-capture: 'Chat'] update settings:
+07:50:54.078: 	title: unknown
+07:50:54.078: 	class: unknown
+07:50:54.078: 
+07:50:54.351: v4l2-input: Start capture from /dev/v4l/by-id/usb-PC-LM1E_PC-LM1E_PC-LM1E-video-index0
+07:50:54.459: v4l2-input: Input: 0
+07:50:54.499: v4l2-input: Resolution: 1920x1080
+07:50:54.499: v4l2-input: Pixelformat: MJPG
+07:50:54.499: v4l2-input: Linesize: 0 Bytes
+07:50:54.519: v4l2-input: Framerate: 30.00 fps
+07:50:54.525: v4l2-input: /dev/v4l/by-id/usb-PC-LM1E_PC-LM1E_PC-LM1E-video-index0: select timeout set to 166666 (5x frame periods)
+07:50:54.530: Switched to scene 'Camera Only'
+07:50:54.530: ------------------------------------------------
+07:50:54.531: Loaded scenes:
+07:50:54.531: - scene 'Landing Scene':
+07:50:54.531:     - source: 'Class Banner' (image_source)
+07:50:54.531:     - source: 'Course Text' (text_ft2_source_v2)
+07:50:54.531:     - source: 'buu_eng_banner' (image_source)
+07:50:54.531: - scene 'Camera Only':
+07:50:54.531:     - source: 'Webcam' (v4l2_input)
+07:50:54.531:         - filter: 'Sharpen' (sharpness_filter_v2)
+07:50:54.531:         - filter: 'Color Correction' (color_filter_v2)
+07:50:54.531:     - source: 'buu_eng_banner' (image_source)
+07:50:54.531: - scene 'Class + Cam':
+07:50:54.531:     - source: 'Webcam' (v4l2_input)
+07:50:54.531:         - filter: 'Sharpen' (sharpness_filter_v2)
+07:50:54.531:         - filter: 'Color Correction' (color_filter_v2)
+07:50:54.531:     - source: 'Students' (xcomposite_input)
+07:50:54.531:     - source: 'buu_eng_banner' (image_source)
+07:50:54.531: - scene 'Window + Big Cam':
+07:50:54.531:     - source: 'Webcam' (v4l2_input)
+07:50:54.531:         - filter: 'Sharpen' (sharpness_filter_v2)
+07:50:54.531:         - filter: 'Color Correction' (color_filter_v2)
+07:50:54.531:     - source: 'buu_eng_banner' (image_source)
+07:50:54.531:     - source: 'Window' (xshm_input)
+07:50:54.531: - scene 'Window + Cam':
+07:50:54.531:     - source: 'Webcam' (v4l2_input)
+07:50:54.531:         - filter: 'Sharpen' (sharpness_filter_v2)
+07:50:54.531:         - filter: 'Color Correction' (color_filter_v2)
+07:50:54.531:     - source: 'Window' (xshm_input)
+07:50:54.531:     - source: 'buu_eng_banner' (image_source)
+07:50:54.531: - scene 'Window + Cam + Chat':
+07:50:54.531:     - source: 'Chat' (xcomposite_input)
+07:50:54.531:     - source: 'Webcam' (v4l2_input)
+07:50:54.531:         - filter: 'Sharpen' (sharpness_filter_v2)
+07:50:54.531:         - filter: 'Color Correction' (color_filter_v2)
+07:50:54.531:     - source: 'buu_eng_banner' (image_source)
+07:50:54.531:     - source: 'Window' (xshm_input)
+07:50:54.531: - scene 'Window + Cam + Students':
+07:50:54.531:     - source: 'Webcam' (v4l2_input)
+07:50:54.531:         - filter: 'Sharpen' (sharpness_filter_v2)
+07:50:54.531:         - filter: 'Color Correction' (color_filter_v2)
+07:50:54.531:     - source: 'Students' (xcomposite_input)
+07:50:54.531:     - source: 'Window' (xshm_input)
+07:50:54.531:     - source: 'buu_eng_banner' (image_source)
+07:50:54.531: ------------------------------------------------
+07:50:54.538: v4l2-input: decoder: failed to send frame to codec
+07:50:54.538: v4l2-input: failed to unpack jpeg or h264
+07:50:54.538: v4l2-input: /dev/v4l/by-id/usb-PC-LM1E_PC-LM1E_PC-LM1E-video-index0: Stopped capture after 0 frames
+07:50:54.654: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Desktop Audio)
+07:50:54.654: 
+07:50:59.737: v4l2-input: Found device 'PC-LM1E: PC-LM1E' at /dev/v4l/by-id/usb-PC-LM1E_PC-LM1E_PC-LM1E-video-index0
+07:50:59.738: v4l2-input: /dev/v4l/by-id/usb-PC-LM1E_PC-LM1E_PC-LM1E-video-index1 seems to not support video capture
+07:50:59.816: v4l2-input: Found device 'USB Video Device : USB Video De' at /dev/v4l/by-id/usb-USB_Video_Device_USB_Video_Device_20000130041415-video-index0
+07:50:59.816: v4l2-input: /dev/v4l/by-id/usb-USB_Video_Device_USB_Video_Device_20000130041415-video-index1 seems to not support video capture
+07:50:59.817: v4l2-input: Found device 'PC-LM1E: PC-LM1E' at /dev/v4l/by-path/pci-0000:01:00.0-usb-0:4:1.0-video-index0
+07:50:59.818: v4l2-input: /dev/v4l/by-path/pci-0000:01:00.0-usb-0:4:1.0-video-index1 seems to not support video capture
+07:50:59.818: v4l2-input: Found device 'PC-LM1E: PC-LM1E' at /dev/v4l/by-path/pci-0000:01:00.0-usbv2-0:4:1.0-video-index0
+07:50:59.819: v4l2-input: /dev/v4l/by-path/pci-0000:01:00.0-usbv2-0:4:1.0-video-index1 seems to not support video capture
+07:50:59.820: v4l2-input: Found device 'USB Video Device : USB Video De' at /dev/v4l/by-path/pci-0000:07:00.3-usb-0:4:1.0-video-index0
+07:50:59.820: v4l2-input: /dev/v4l/by-path/pci-0000:07:00.3-usb-0:4:1.0-video-index1 seems to not support video capture
+07:50:59.821: v4l2-input: Found device 'USB Video Device : USB Video De' at /dev/v4l/by-path/pci-0000:07:00.3-usbv3-0:4:1.0-video-index0
+07:50:59.822: v4l2-input: /dev/v4l/by-path/pci-0000:07:00.3-usbv3-0:4:1.0-video-index1 seems to not support video capture
+07:50:59.823: v4l2-input: /dev/video1 seems to not support video capture
+07:50:59.823: v4l2-input: /dev/video10 seems to not support video capture
+07:50:59.825: v4l2-input: /dev/video3 seems to not support video capture
+07:50:59.828: v4l2-input: Pixelformat: Motion-JPEG (available)
+07:50:59.828: v4l2-input: Pixelformat: H.264 (available)
+07:50:59.828: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+07:50:59.828: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+07:50:59.828: v4l2-input: Pixelformat: BGR3 (Emulated) (available)
+07:50:59.828: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+07:50:59.828: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+07:50:59.831: v4l2-input: Found input 'Camera 1' (Index 0)
+07:50:59.831: v4l2-controls: setting default for Power Line Frequency to 1
+07:50:59.831: v4l2-controls: setting default for Auto Exposure to 0
+07:50:59.832: v4l2-input: Pixelformat: Motion-JPEG (available)
+07:50:59.832: v4l2-input: Pixelformat: H.264 (available)
+07:50:59.832: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+07:50:59.832: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+07:50:59.832: v4l2-input: Pixelformat: BGR3 (Emulated) (available)
+07:50:59.832: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+07:50:59.832: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+07:51:03.969: v4l2-input: Found device 'PC-LM1E: PC-LM1E' at /dev/v4l/by-id/usb-PC-LM1E_PC-LM1E_PC-LM1E-video-index0
+07:51:03.969: v4l2-input: /dev/v4l/by-id/usb-PC-LM1E_PC-LM1E_PC-LM1E-video-index1 seems to not support video capture
+07:51:04.049: v4l2-input: Found device 'USB Video Device : USB Video De' at /dev/v4l/by-id/usb-USB_Video_Device_USB_Video_Device_20000130041415-video-index0
+07:51:04.049: v4l2-input: /dev/v4l/by-id/usb-USB_Video_Device_USB_Video_Device_20000130041415-video-index1 seems to not support video capture
+07:51:04.050: v4l2-input: Found device 'PC-LM1E: PC-LM1E' at /dev/v4l/by-path/pci-0000:01:00.0-usb-0:4:1.0-video-index0
+07:51:04.051: v4l2-input: /dev/v4l/by-path/pci-0000:01:00.0-usb-0:4:1.0-video-index1 seems to not support video capture
+07:51:04.051: v4l2-input: Found device 'PC-LM1E: PC-LM1E' at /dev/v4l/by-path/pci-0000:01:00.0-usbv2-0:4:1.0-video-index0
+07:51:04.052: v4l2-input: /dev/v4l/by-path/pci-0000:01:00.0-usbv2-0:4:1.0-video-index1 seems to not support video capture
+07:51:04.053: v4l2-input: Found device 'USB Video Device : USB Video De' at /dev/v4l/by-path/pci-0000:07:00.3-usb-0:4:1.0-video-index0
+07:51:04.053: v4l2-input: /dev/v4l/by-path/pci-0000:07:00.3-usb-0:4:1.0-video-index1 seems to not support video capture
+07:51:04.054: v4l2-input: Found device 'USB Video Device : USB Video De' at /dev/v4l/by-path/pci-0000:07:00.3-usbv3-0:4:1.0-video-index0
+07:51:04.055: v4l2-input: /dev/v4l/by-path/pci-0000:07:00.3-usbv3-0:4:1.0-video-index1 seems to not support video capture
+07:51:04.056: v4l2-input: /dev/video1 seems to not support video capture
+07:51:04.056: v4l2-input: /dev/video10 seems to not support video capture
+07:51:04.057: v4l2-input: /dev/video3 seems to not support video capture
+07:51:04.059: v4l2-input: Pixelformat: Motion-JPEG (available)
+07:51:04.059: v4l2-input: Pixelformat: H.264 (available)
+07:51:04.059: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+07:51:04.059: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+07:51:04.059: v4l2-input: Pixelformat: BGR3 (Emulated) (available)
+07:51:04.059: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+07:51:04.059: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+07:51:04.060: v4l2-input: Found input 'Camera 1' (Index 0)
+07:51:04.061: v4l2-controls: setting default for Power Line Frequency to 1
+07:51:04.061: v4l2-controls: setting default for Auto Exposure to 0
+07:51:04.062: v4l2-input: Pixelformat: Motion-JPEG (available)
+07:51:04.062: v4l2-input: Pixelformat: H.264 (available)
+07:51:04.062: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+07:51:04.062: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+07:51:04.062: v4l2-input: Pixelformat: BGR3 (Emulated) (available)
+07:51:04.062: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+07:51:04.062: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+07:51:06.157: v4l2-input: Found input 'Camera 1' (Index 0)
+07:51:06.157: v4l2-controls: setting default for Power Line Frequency to 1
+07:51:06.157: v4l2-controls: setting default for Auto Exposure to 0
+07:51:06.158: v4l2-input: Pixelformat: Motion-JPEG (available)
+07:51:06.158: v4l2-input: Pixelformat: H.264 (available)
+07:51:06.158: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+07:51:06.158: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+07:51:06.158: v4l2-input: Pixelformat: BGR3 (Emulated) (available)
+07:51:06.158: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+07:51:06.158: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+07:51:06.181: v4l2-input: Start capture from /dev/v4l/by-path/pci-0000:01:00.0-usb-0:4:1.0-video-index0
+07:51:06.182: v4l2-input: Input: 0
+07:51:06.221: v4l2-input: Resolution: 1920x1080
+07:51:06.221: v4l2-input: Pixelformat: MJPG
+07:51:06.221: v4l2-input: Linesize: 0 Bytes
+07:51:06.241: v4l2-input: Framerate: 30.00 fps
+07:51:06.249: v4l2-input: /dev/v4l/by-path/pci-0000:01:00.0-usb-0:4:1.0-video-index0: select timeout set to 166666 (5x frame periods)
+07:51:06.424: v4l2-input: /dev/v4l/by-path/pci-0000:01:00.0-usb-0:4:1.0-video-index0: select timed out
+07:51:06.424: v4l2-input: /dev/v4l/by-path/pci-0000:01:00.0-usb-0:4:1.0-video-index0: failed to log status
+07:51:14.526: Virtual camera started
+07:51:14.527: ==== Virtual Camera Start ==========================================
+07:51:14.527: Starting Virtual Camera output to Program
+07:54:46.663: User switched to scene 'Landing Scene'
+07:55:06.263: Output 'virtualcam_output': stopping
+07:55:06.264: Output 'virtualcam_output': Total frames output: 6951
+07:55:06.264: Output 'virtualcam_output': Total drawn frames: 6950 (6952 attempted)
+07:55:06.264: Output 'virtualcam_output': Number of lagged frames due to rendering lag/stalls: 2 (0.0%)
+07:55:06.264: ==== Virtual Camera Stop ===========================================
+07:55:06.264: Virtual camera stopped
+07:55:17.331: Virtual camera started
+07:55:17.332: ==== Virtual Camera Start ==========================================
+07:55:17.332: Starting Virtual Camera output to Program
+07:55:23.688: User switched to scene 'Camera Only'
+07:57:21.274: User switched to scene 'Landing Scene'
+07:58:48.437: User switched to scene 'Camera Only'
+07:59:17.635: User switched to scene 'Landing Scene'
+07:59:21.080: User switched to scene 'Camera Only'
+07:59:58.726: v4l2-input: Found device 'PC-LM1E: PC-LM1E' at /dev/v4l/by-id/usb-PC-LM1E_PC-LM1E_PC-LM1E-video-index0
+07:59:58.726: v4l2-input: /dev/v4l/by-id/usb-PC-LM1E_PC-LM1E_PC-LM1E-video-index1 seems to not support video capture
+07:59:58.805: v4l2-input: Found device 'USB Video Device : USB Video De' at /dev/v4l/by-id/usb-USB_Video_Device_USB_Video_Device_20000130041415-video-index0
+07:59:58.806: v4l2-input: /dev/v4l/by-id/usb-USB_Video_Device_USB_Video_Device_20000130041415-video-index1 seems to not support video capture
+07:59:58.806: v4l2-input: Found device 'PC-LM1E: PC-LM1E' at /dev/v4l/by-path/pci-0000:01:00.0-usb-0:4:1.0-video-index0
+07:59:58.806: v4l2-input: /dev/v4l/by-path/pci-0000:01:00.0-usb-0:4:1.0-video-index1 seems to not support video capture
+07:59:58.807: v4l2-input: Found device 'PC-LM1E: PC-LM1E' at /dev/v4l/by-path/pci-0000:01:00.0-usbv2-0:4:1.0-video-index0
+07:59:58.807: v4l2-input: /dev/v4l/by-path/pci-0000:01:00.0-usbv2-0:4:1.0-video-index1 seems to not support video capture
+07:59:58.808: v4l2-input: Found device 'USB Video Device : USB Video De' at /dev/v4l/by-path/pci-0000:07:00.3-usb-0:4:1.0-video-index0
+07:59:58.808: v4l2-input: /dev/v4l/by-path/pci-0000:07:00.3-usb-0:4:1.0-video-index1 seems to not support video capture
+07:59:58.808: v4l2-input: Found device 'USB Video Device : USB Video De' at /dev/v4l/by-path/pci-0000:07:00.3-usbv3-0:4:1.0-video-index0
+07:59:58.809: v4l2-input: /dev/v4l/by-path/pci-0000:07:00.3-usbv3-0:4:1.0-video-index1 seems to not support video capture
+07:59:58.810: v4l2-input: /dev/video1 seems to not support video capture
+07:59:58.810: v4l2-input: Found device 'OBS Virtual Camera' at /dev/video10
+07:59:58.811: v4l2-input: /dev/video3 seems to not support video capture
+07:59:58.813: v4l2-input: Pixelformat: Motion-JPEG (available)
+07:59:58.813: v4l2-input: Pixelformat: H.264 (available)
+07:59:58.813: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+07:59:58.813: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+07:59:58.813: v4l2-input: Pixelformat: BGR3 (Emulated) (available)
+07:59:58.813: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+07:59:58.813: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+07:59:58.814: v4l2-input: Found input 'Camera 1' (Index 0)
+07:59:58.814: v4l2-controls: setting default for Power Line Frequency to 1
+07:59:58.814: v4l2-controls: setting default for Auto Exposure to 0
+07:59:58.815: v4l2-input: Pixelformat: Motion-JPEG (available)
+07:59:58.815: v4l2-input: Pixelformat: H.264 (available)
+07:59:58.815: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+07:59:58.815: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+07:59:58.815: v4l2-input: Pixelformat: BGR3 (Emulated) (available)
+07:59:58.815: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+07:59:58.815: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+08:00:02.998: v4l2-input: /dev/v4l/by-path/pci-0000:01:00.0-usb-0:4:1.0-video-index0: Stopped capture after 16093 frames
+08:00:03.008: v4l2-input: Start capture from /dev/v4l/by-path/pci-0000:01:00.0-usb-0:4:1.0-video-index0
+08:00:03.010: v4l2-input: Input: 0
+08:00:03.049: v4l2-input: Resolution: 1280x720
+08:00:03.049: v4l2-input: Pixelformat: MJPG
+08:00:03.049: v4l2-input: Linesize: 0 Bytes
+08:00:03.069: v4l2-input: Framerate: 30.00 fps
+08:00:03.072: v4l2-input: /dev/v4l/by-path/pci-0000:01:00.0-usb-0:4:1.0-video-index0: select timeout set to 166666 (5x frame periods)
+08:00:03.247: v4l2-input: /dev/v4l/by-path/pci-0000:01:00.0-usb-0:4:1.0-video-index0: select timed out
+08:00:03.247: v4l2-input: /dev/v4l/by-path/pci-0000:01:00.0-usb-0:4:1.0-video-index0: failed to log status
+08:00:03.352: v4l2-input: decoder: failed to send frame to codec
+08:00:03.352: v4l2-input: failed to unpack jpeg or h264
+08:00:03.352: v4l2-input: /dev/v4l/by-path/pci-0000:01:00.0-usb-0:4:1.0-video-index0: Stopped capture after 0 frames
+08:00:09.340: v4l2-input: Found device 'PC-LM1E: PC-LM1E' at /dev/v4l/by-id/usb-PC-LM1E_PC-LM1E_PC-LM1E-video-index0
+08:00:09.341: v4l2-input: /dev/v4l/by-id/usb-PC-LM1E_PC-LM1E_PC-LM1E-video-index1 seems to not support video capture
+08:00:09.420: v4l2-input: Found device 'USB Video Device : USB Video De' at /dev/v4l/by-id/usb-USB_Video_Device_USB_Video_Device_20000130041415-video-index0
+08:00:09.421: v4l2-input: /dev/v4l/by-id/usb-USB_Video_Device_USB_Video_Device_20000130041415-video-index1 seems to not support video capture
+08:00:09.422: v4l2-input: Found device 'PC-LM1E: PC-LM1E' at /dev/v4l/by-path/pci-0000:01:00.0-usb-0:4:1.0-video-index0
+08:00:09.422: v4l2-input: /dev/v4l/by-path/pci-0000:01:00.0-usb-0:4:1.0-video-index1 seems to not support video capture
+08:00:09.423: v4l2-input: Found device 'PC-LM1E: PC-LM1E' at /dev/v4l/by-path/pci-0000:01:00.0-usbv2-0:4:1.0-video-index0
+08:00:09.424: v4l2-input: /dev/v4l/by-path/pci-0000:01:00.0-usbv2-0:4:1.0-video-index1 seems to not support video capture
+08:00:09.424: v4l2-input: Found device 'USB Video Device : USB Video De' at /dev/v4l/by-path/pci-0000:07:00.3-usb-0:4:1.0-video-index0
+08:00:09.425: v4l2-input: /dev/v4l/by-path/pci-0000:07:00.3-usb-0:4:1.0-video-index1 seems to not support video capture
+08:00:09.425: v4l2-input: Found device 'USB Video Device : USB Video De' at /dev/v4l/by-path/pci-0000:07:00.3-usbv3-0:4:1.0-video-index0
+08:00:09.426: v4l2-input: /dev/v4l/by-path/pci-0000:07:00.3-usbv3-0:4:1.0-video-index1 seems to not support video capture
+08:00:09.427: v4l2-input: /dev/video1 seems to not support video capture
+08:00:09.427: v4l2-input: Found device 'OBS Virtual Camera' at /dev/video10
+08:00:09.428: v4l2-input: /dev/video3 seems to not support video capture
+08:00:09.431: v4l2-input: Pixelformat: Motion-JPEG (available)
+08:00:09.431: v4l2-input: Pixelformat: H.264 (available)
+08:00:09.431: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+08:00:09.431: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+08:00:09.431: v4l2-input: Pixelformat: BGR3 (Emulated) (available)
+08:00:09.431: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+08:00:09.431: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+08:00:09.434: v4l2-input: Found input 'Camera 1' (Index 0)
+08:00:09.434: v4l2-controls: setting default for Power Line Frequency to 1
+08:00:09.434: v4l2-controls: setting default for Auto Exposure to 0
+08:00:09.435: v4l2-input: Pixelformat: Motion-JPEG (available)
+08:00:09.435: v4l2-input: Pixelformat: H.264 (available)
+08:00:09.435: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+08:00:09.435: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+08:00:09.435: v4l2-input: Pixelformat: BGR3 (Emulated) (available)
+08:00:09.435: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+08:00:09.435: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+08:00:11.297: v4l2-input: Found input 'Camera 1' (Index 0)
+08:00:11.298: v4l2-controls: setting default for Power Line Frequency to 1
+08:00:11.298: v4l2-controls: setting default for Auto Exposure to 0
+08:00:11.299: v4l2-input: Pixelformat: Motion-JPEG (available)
+08:00:11.299: v4l2-input: Pixelformat: H.264 (available)
+08:00:11.299: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+08:00:11.299: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+08:00:11.299: v4l2-input: Pixelformat: BGR3 (Emulated) (available)
+08:00:11.299: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+08:00:11.299: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+08:00:11.312: v4l2-input: Start capture from /dev/v4l/by-id/usb-PC-LM1E_PC-LM1E_PC-LM1E-video-index0
+08:00:11.314: v4l2-input: Input: 0
+08:00:11.353: v4l2-input: Resolution: 1280x720
+08:00:11.353: v4l2-input: Pixelformat: MJPG
+08:00:11.353: v4l2-input: Linesize: 0 Bytes
+08:00:11.373: v4l2-input: Framerate: 30.00 fps
+08:00:11.377: v4l2-input: /dev/v4l/by-id/usb-PC-LM1E_PC-LM1E_PC-LM1E-video-index0: select timeout set to 166666 (5x frame periods)
+08:00:11.552: v4l2-input: /dev/v4l/by-id/usb-PC-LM1E_PC-LM1E_PC-LM1E-video-index0: select timed out
+08:00:11.552: v4l2-input: /dev/v4l/by-id/usb-PC-LM1E_PC-LM1E_PC-LM1E-video-index0: failed to log status
+08:02:35.570: User switched to scene 'Landing Scene'
+08:02:38.027: User switched to scene 'Camera Only'
+08:02:45.771: v4l2-input: Found device 'PC-LM1E: PC-LM1E' at /dev/v4l/by-id/usb-PC-LM1E_PC-LM1E_PC-LM1E-video-index0
+08:02:45.771: v4l2-input: /dev/v4l/by-id/usb-PC-LM1E_PC-LM1E_PC-LM1E-video-index1 seems to not support video capture
+08:02:45.850: v4l2-input: Found device 'USB Video Device : USB Video De' at /dev/v4l/by-id/usb-USB_Video_Device_USB_Video_Device_20000130041415-video-index0
+08:02:45.851: v4l2-input: /dev/v4l/by-id/usb-USB_Video_Device_USB_Video_Device_20000130041415-video-index1 seems to not support video capture
+08:02:45.852: v4l2-input: Found device 'PC-LM1E: PC-LM1E' at /dev/v4l/by-path/pci-0000:01:00.0-usb-0:4:1.0-video-index0
+08:02:45.853: v4l2-input: /dev/v4l/by-path/pci-0000:01:00.0-usb-0:4:1.0-video-index1 seems to not support video capture
+08:02:45.854: v4l2-input: Found device 'PC-LM1E: PC-LM1E' at /dev/v4l/by-path/pci-0000:01:00.0-usbv2-0:4:1.0-video-index0
+08:02:45.854: v4l2-input: /dev/v4l/by-path/pci-0000:01:00.0-usbv2-0:4:1.0-video-index1 seems to not support video capture
+08:02:45.855: v4l2-input: Found device 'USB Video Device : USB Video De' at /dev/v4l/by-path/pci-0000:07:00.3-usb-0:4:1.0-video-index0
+08:02:45.856: v4l2-input: /dev/v4l/by-path/pci-0000:07:00.3-usb-0:4:1.0-video-index1 seems to not support video capture
+08:02:45.857: v4l2-input: Found device 'USB Video Device : USB Video De' at /dev/v4l/by-path/pci-0000:07:00.3-usbv3-0:4:1.0-video-index0
+08:02:45.857: v4l2-input: /dev/v4l/by-path/pci-0000:07:00.3-usbv3-0:4:1.0-video-index1 seems to not support video capture
+08:02:45.858: v4l2-input: /dev/video1 seems to not support video capture
+08:02:45.859: v4l2-input: Found device 'OBS Virtual Camera' at /dev/video10
+08:02:45.861: v4l2-input: /dev/video3 seems to not support video capture
+08:02:45.865: v4l2-input: Pixelformat: Motion-JPEG (available)
+08:02:45.865: v4l2-input: Pixelformat: H.264 (available)
+08:02:45.865: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+08:02:45.865: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+08:02:45.865: v4l2-input: Pixelformat: BGR3 (Emulated) (available)
+08:02:45.865: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+08:02:45.865: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+08:02:45.868: v4l2-input: Found input 'Camera 1' (Index 0)
+08:02:45.868: v4l2-controls: setting default for Power Line Frequency to 1
+08:02:45.868: v4l2-controls: setting default for Auto Exposure to 0
+08:02:45.869: v4l2-input: Pixelformat: Motion-JPEG (available)
+08:02:45.869: v4l2-input: Pixelformat: H.264 (available)
+08:02:45.869: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+08:02:45.869: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+08:02:45.869: v4l2-input: Pixelformat: BGR3 (Emulated) (available)
+08:02:45.869: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+08:02:45.869: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+08:02:49.001: v4l2-input: /dev/v4l/by-id/usb-PC-LM1E_PC-LM1E_PC-LM1E-video-index0: Stopped capture after 4720 frames
+08:02:49.009: v4l2-input: Start capture from /dev/v4l/by-id/usb-PC-LM1E_PC-LM1E_PC-LM1E-video-index0
+08:02:49.010: v4l2-input: Input: 0
+08:02:49.049: v4l2-input: Resolution: 1920x1080
+08:02:49.050: v4l2-input: Pixelformat: MJPG
+08:02:49.050: v4l2-input: Linesize: 0 Bytes
+08:02:49.069: v4l2-input: Framerate: 30.00 fps
+08:02:49.078: v4l2-input: /dev/v4l/by-id/usb-PC-LM1E_PC-LM1E_PC-LM1E-video-index0: select timeout set to 166666 (5x frame periods)
+08:02:49.254: v4l2-input: /dev/v4l/by-id/usb-PC-LM1E_PC-LM1E_PC-LM1E-video-index0: select timed out
+08:02:49.254: v4l2-input: /dev/v4l/by-id/usb-PC-LM1E_PC-LM1E_PC-LM1E-video-index0: failed to log status
+08:03:00.761: User switched to scene 'Landing Scene'
+08:03:03.971: User switched to scene 'Camera Only'
+08:04:14.503: Output 'virtualcam_output': stopping
+08:04:14.503: Output 'virtualcam_output': Total frames output: 16114
+08:04:14.503: Output 'virtualcam_output': Total drawn frames: 16111 (16115 attempted)
+08:04:14.503: Output 'virtualcam_output': Number of lagged frames due to rendering lag/stalls: 4 (0.0%)
+08:04:14.503: ==== Virtual Camera Stop ===========================================
+08:04:14.504: Virtual camera stopped
+08:04:15.319: ==== Shutting down ==================================================
+08:04:15.333: pulse-input: Stopped recording from 'alsa_output.pci-0000_06_00.1.hdmi-stereo-extra5.monitor'
+08:04:15.333: pulse-input: Got 32044 packets with 38452800 frames
+08:04:15.333: pulse-input: Stopped recording from 'alsa_input.usb-V_NO_NO_NONE_Fantech_Leviosa-00.mono-fallback'
+08:04:15.333: pulse-input: Got 32045 packets with 38454000 frames
+08:04:15.358: v4l2-input: /dev/v4l/by-id/usb-PC-LM1E_PC-LM1E_PC-LM1E-video-index0: Stopped capture after 2579 frames
+08:04:15.380: All scene data cleared
+08:04:15.380: ------------------------------------------------
+08:04:15.469: [obs-websocket] [obs_module_unload] Shutting down...
+08:04:15.470: Tried to call obs_frontend_remove_event_callback with no callbacks!
+08:04:15.470: [obs-websocket] [obs_module_unload] Finished shutting down.
+08:04:15.470: [obs-backgroundremoval] plugin unloaded
+08:04:15.482: [Scripting] Total detached callbacks: 0
+08:04:15.482: Freeing OBS context data
+08:04:15.523: == Profiler Results =============================
+08:04:15.523: run_program_init: 2596.27 ms
+08:04:15.523:  ┣OBSApp::AppInit: 25.58 ms
+08:04:15.523:  ┃ ┗OBSApp::InitLocale: 3.727 ms
+08:04:15.523:  ┗OBSApp::OBSInit: 2408.01 ms
+08:04:15.523:    ┣obs_startup: 3.669 ms
+08:04:15.523:    ┗OBSBasic::OBSInit: 2315.96 ms
+08:04:15.523:      ┣OBSBasic::InitBasicConfig: 0.131 ms
+08:04:15.523:      ┣OBSBasic::ResetAudio: 0.349 ms
+08:04:15.523:      ┣OBSBasic::ResetVideo: 339.199 ms
+08:04:15.523:      ┃ ┗obs_init_graphics: 332.322 ms
+08:04:15.523:      ┃   ┗shader compilation: 219.397 ms
+08:04:15.523:      ┣OBSBasic::InitOBSCallbacks: 0.026 ms
+08:04:15.523:      ┣OBSBasic::InitHotkeys: 0.052 ms
+08:04:15.523:      ┣obs_load_all_modules2: 1317.36 ms
+08:04:15.523:      ┃ ┣obs_init_module(decklink-captions.so): 0.003 ms
+08:04:15.523:      ┃ ┣obs_init_module(decklink-output-ui.so): 0.002 ms
+08:04:15.523:      ┃ ┣obs_init_module(decklink.so): 0.172 ms
+08:04:15.523:      ┃ ┣obs_init_module(frontend-tools.so): 61.016 ms
+08:04:15.523:      ┃ ┣obs_init_module(image-source.so): 0.02 ms
+08:04:15.523:      ┃ ┣obs_init_module(linux-alsa.so): 0.008 ms
+08:04:15.523:      ┃ ┣obs_init_module(linux-capture.so): 0.924 ms
+08:04:15.523:      ┃ ┣obs_init_module(linux-jack.so): 0.005 ms
+08:04:15.523:      ┃ ┣obs_init_module(linux-pipewire.so): 24.415 ms
+08:04:15.523:      ┃ ┣obs_init_module(linux-pulseaudio.so): 0.008 ms
+08:04:15.523:      ┃ ┣obs_init_module(linux-v4l2.so): 0.2 ms
+08:04:15.523:      ┃ ┣obs_init_module(obs-backgroundremoval.so): 569.156 ms
+08:04:15.523:      ┃ ┣obs_init_module(obs-ffmpeg.so): 34.791 ms
+08:04:15.523:      ┃ ┃ ┗nvenc_check: 1.379 ms
+08:04:15.523:      ┃ ┣obs_init_module(obs-filters.so): 0.03 ms
+08:04:15.523:      ┃ ┣obs_init_module(obs-outputs.so): 0.013 ms
+08:04:15.523:      ┃ ┣obs_init_module(obs-transitions.so): 0.028 ms
+08:04:15.523:      ┃ ┣obs_init_module(obs-websocket.so): 36.634 ms
+08:04:15.523:      ┃ ┣obs_init_module(obs-x264.so): 0.006 ms
+08:04:15.523:      ┃ ┣obs_init_module(rtmp-services.so): 17.645 ms
+08:04:15.523:      ┃ ┣obs_init_module(text-freetype2.so): 0.026 ms
+08:04:15.523:      ┃ ┗obs_init_module(vlc-video.so): 4.085 ms
+08:04:15.523:      ┣OBSBasic::InitService: 8.538 ms
+08:04:15.523:      ┣OBSBasic::ResetOutputs: 11.685 ms
+08:04:15.523:      ┣OBSBasic::CreateHotkeys: 0.027 ms
+08:04:15.523:      ┣OBSBasic::InitPrimitives: 0.797 ms
+08:04:15.523:      ┗OBSBasic::Load: 552.626 ms
+08:04:15.523: obs_hotkey_thread(25 ms): min=0.125 ms, median=0.27 ms, max=17.565 ms, 99th percentile=1.78 ms, 100% below 25 ms
+08:04:15.523: audio_thread(Audio): min=0.006 ms, median=0.055 ms, max=96.848 ms, 99th percentile=0.696 ms
+08:04:15.524: obs_graphics_thread(33.3333 ms): min=0.201 ms, median=2.751 ms, max=503.658 ms, 99th percentile=5.926 ms, 99.9668% below 33.333 ms
+08:04:15.524:  ┣tick_sources: min=0.002 ms, median=0.02 ms, max=478.776 ms, 99th percentile=0.048 ms
+08:04:15.524:  ┣output_frame: min=0.181 ms, median=1.376 ms, max=111.168 ms, 99th percentile=2.383 ms
+08:04:15.524:  ┃ ┣gs_context(video->graphics): min=0.176 ms, median=1.13 ms, max=111.159 ms, 99th percentile=2.003 ms
+08:04:15.524:  ┃ ┃ ┣render_video: min=0.01 ms, median=0.769 ms, max=55.442 ms, 99th percentile=1.47 ms
+08:04:15.524:  ┃ ┃ ┃ ┣render_main_texture: min=0.005 ms, median=0.697 ms, max=55.435 ms, 99th percentile=1.34 ms
+08:04:15.524:  ┃ ┃ ┃ ┣render_convert_texture: min=0.02 ms, median=0.047 ms, max=40.285 ms, 99th percentile=0.101 ms
+08:04:15.524:  ┃ ┃ ┃ ┗stage_output_texture: min=0.011 ms, median=0.025 ms, max=0.253 ms, 99th percentile=0.057 ms
+08:04:15.524:  ┃ ┃ ┣gs_flush: min=0.002 ms, median=0.008 ms, max=0.258 ms, 99th percentile=0.023 ms
+08:04:15.524:  ┃ ┃ ┗download_frame: min=0.002 ms, median=0.117 ms, max=0.724 ms, 99th percentile=0.221 ms
+08:04:15.524:  ┃ ┗output_video_data: min=0.122 ms, median=0.244 ms, max=2.765 ms, 99th percentile=0.442 ms
+08:04:15.524:  ┗render_displays: min=0.002 ms, median=1.386 ms, max=39.291 ms, 99th percentile=4.189 ms
+08:04:15.524: video_thread(video): min=0.975 ms, median=2.354 ms, max=7.998 ms, 99th percentile=3.741 ms
+08:04:15.524: =================================================
+08:04:15.524: == Profiler Time Between Calls ==================
+08:04:15.524: obs_hotkey_thread(25 ms): min=25.175 ms, median=25.356 ms, max=42.642 ms, 85.7835% within ±2% of 25 ms (0% lower, 14.2165% higher)
+08:04:15.524: obs_graphics_thread(33.3333 ms): min=4.067 ms, median=33.333 ms, max=503.677 ms, 99.8005% within ±2% of 33.333 ms (0.0997423% lower, 0.0997423% higher)
+08:04:15.524: =================================================
+08:04:15.550: Number of memory leaks: 2

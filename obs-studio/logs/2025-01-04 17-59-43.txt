@@ -1,0 +1,250 @@
+17:59:43.687: Using EGL/X11
+17:59:43.687: CPU Name: AMD Ryzen 5 2600 Six-Core Processor
+17:59:43.687: CPU Speed: 1559.718MHz
+17:59:43.687: Physical Cores: 6, Logical Cores: 12
+17:59:43.687: Physical Memory: 15403MB Total, 5770MB Free
+17:59:43.687: Kernel Version: Linux 6.11.0-13-generic
+17:59:43.687: Distribution: "Ubuntu" "24.10"
+17:59:43.687: Desktop Environment: i3 (i3)
+17:59:43.687: Session Type: x11
+17:59:43.687: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.21.1
+17:59:43.689: Qt Version: 6.6.2 (runtime), 6.6.2 (compiled)
+17:59:43.689: Portable mode: false
+17:59:43.735: OBS 30.2.3.1-2 (linux)
+17:59:43.735: ---------------------------------
+17:59:43.736: ---------------------------------
+17:59:43.736: audio settings reset:
+17:59:43.736: 	samples per sec: 48000
+17:59:43.736: 	speakers:        2
+17:59:43.736: 	max buffering:   960 milliseconds
+17:59:43.736: 	buffering type:  dynamically increasing
+17:59:43.737: ---------------------------------
+17:59:43.737: Initializing OpenGL...
+17:59:43.839: Loading up OpenGL on adapter AMD AMD Radeon RX 580 Series (radeonsi, polaris10, LLVM 19.1.0, DRM 3.58, 6.11.0-13-generic)
+17:59:43.839: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 24.2.3-1ubuntu1, shading language 4.60
+17:59:43.878: ---------------------------------
+17:59:43.878: video settings reset:
+17:59:43.878: 	base resolution:   1280x720
+17:59:43.878: 	output resolution: 1280x720
+17:59:43.878: 	downscale filter:  Lanczos
+17:59:43.878: 	fps:               30/1
+17:59:43.878: 	format:            NV12
+17:59:43.878: 	YUV mode:          Rec. 709/Partial
+17:59:43.878: NV12 texture support enabled
+17:59:43.878: P010 texture support not available
+17:59:43.881: Audio monitoring device:
+17:59:43.881: 	name: Nayot’s AirPods Pro - Find My
+17:59:43.881: 	id: bluez_output.D0_3E_07_E1_84_02.1
+17:59:43.881: ---------------------------------
+17:59:43.893: Failed to load 'en-US' text for module: 'decklink-captions.so'
+17:59:43.904: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+17:59:43.914: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+17:59:43.914: Failed to initialize module 'decklink.so'
+17:59:44.049: [pipewire] No capture sources available
+17:59:44.108: [obs-backgroundremoval] Plugin loaded successfully (version 1.1.13)
+17:59:44.108: [obs-backgroundremoval] Failed to open config file /home/nayot/.config/obs-studio/plugin_config/obs-backgroundremoval/config.ini
+17:59:44.108: [obs-backgroundremoval] Failed to open config file /home/nayot/.config/obs-studio/plugin_config/obs-backgroundremoval/config.ini
+17:59:44.545: [obs-backgroundremoval] Latest release is 
+17:59:44.661: VAAPI: API version 1.22
+17:59:44.663: FFmpeg VAAPI H264 encoding supported
+17:59:44.674: FFmpeg VAAPI AV1 encoding not supported
+17:59:44.685: FFmpeg VAAPI HEVC encoding supported
+17:59:44.758: [obs-websocket] [obs_module_load] you can haz websockets (Version: 5.5.2 | RPC Version: 1)
+17:59:44.758: [obs-websocket] [obs_module_load] Qt version (compile-time): 6.6.2 | Qt version (run-time): 6.6.2
+17:59:44.758: [obs-websocket] [obs_module_load] Linked ASIO Version: 103002
+17:59:44.764: [obs-websocket] [obs_module_load] Module loaded.
+17:59:44.820: [vlc-video]: VLC 3.0.21 Vetinari found, VLC video source enabled
+17:59:44.820: ---------------------------------
+17:59:44.820:   Loaded Modules:
+17:59:44.820:     vlc-video.so
+17:59:44.820:     text-freetype2.so
+17:59:44.820:     rtmp-services.so
+17:59:44.820:     obs-x264.so
+17:59:44.820:     obs-websocket.so
+17:59:44.820:     obs-transitions.so
+17:59:44.820:     obs-outputs.so
+17:59:44.820:     obs-filters.so
+17:59:44.820:     obs-ffmpeg.so
+17:59:44.820:     obs-backgroundremoval.so
+17:59:44.820:     linux-v4l2.so
+17:59:44.820:     linux-pulseaudio.so
+17:59:44.820:     linux-pipewire.so
+17:59:44.820:     linux-jack.so
+17:59:44.820:     linux-capture.so
+17:59:44.820:     linux-alsa.so
+17:59:44.820:     image-source.so
+17:59:44.820:     frontend-tools.so
+17:59:44.820:     decklink-output-ui.so
+17:59:44.820:     decklink-captions.so
+17:59:44.820: ---------------------------------
+17:59:44.820: ---------------------------------
+17:59:44.820: Available Encoders:
+17:59:44.820:   Video Encoders:
+17:59:44.820: 	- ffmpeg_svt_av1 (SVT-AV1)
+17:59:44.820: 	- ffmpeg_aom_av1 (AOM AV1)
+17:59:44.820: 	- ffmpeg_vaapi_tex (FFmpeg VAAPI H.264)
+17:59:44.820: 	- hevc_ffmpeg_vaapi_tex (FFmpeg VAAPI HEVC)
+17:59:44.820: 	- obs_x264 (x264)
+17:59:44.820:   Audio Encoders:
+17:59:44.820: 	- ffmpeg_aac (FFmpeg AAC)
+17:59:44.820: 	- ffmpeg_opus (FFmpeg Opus)
+17:59:44.820: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bit))
+17:59:44.820: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bit))
+17:59:44.821: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bit float))
+17:59:44.821: 	- ffmpeg_alac (FFmpeg ALAC (24-bit))
+17:59:44.821: 	- ffmpeg_flac (FFmpeg FLAC (16-bit))
+17:59:44.821: ==== Startup complete ===============================================
+17:59:44.835: signal_handler_connect: signal 'file_changed' not found
+17:59:44.888: All scene data cleared
+17:59:44.888: ------------------------------------------------
+17:59:44.897: pulse-input: Server name: 'PulseAudio (on PipeWire 1.2.4) 15.0.0'
+17:59:44.897: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+17:59:44.897: pulse-input: Started recording from 'alsa_output.pci-0000_06_00.1.hdmi-stereo-extra5.monitor' (default)
+17:59:44.897: [Loaded global audio device]: 'Desktop Audio'
+17:59:44.898: pulse-input: Server name: 'PulseAudio (on PipeWire 1.2.4) 15.0.0'
+17:59:44.898: pulse-input: Audio format: s16le, 48000 Hz, 1 channels
+17:59:44.898: pulse-input: Started recording from 'alsa_input.usb-V_NO_NO_NONE_Fantech_Leviosa-00.mono-fallback'
+17:59:44.901: [Loaded global audio device]: 'Mic/Aux'
+17:59:44.901:     - filter: 'Noise Suppression' (noise_suppress_filter_v2)
+17:59:44.901:     - filter: 'Gain' (gain_filter)
+17:59:44.901:     - filter: 'Expander' (expander_filter)
+17:59:44.903: xshm-input: Geometry 2560x1080 @ 0,0
+17:59:44.905: [window-capture: 'Students'] update settings:
+17:59:44.905: 	title: Meeting (Locked)
+17:59:44.905: 	class: zoom
+17:59:44.905: 
+17:59:44.908: [window-capture: 'Chat'] update settings:
+17:59:44.908: 	title: Meeting chat
+17:59:44.908: 	class: zoom
+17:59:44.908: 
+17:59:45.042: v4l2-input: Start capture from /dev/v4l/by-path/pci-0000:01:00.0-usb-0:4:1.0-video-index0
+17:59:45.149: v4l2-input: Input: 0
+17:59:45.189: v4l2-input: Resolution: 1920x1080
+17:59:45.189: v4l2-input: Pixelformat: MJPG
+17:59:45.189: v4l2-input: Linesize: 0 Bytes
+17:59:45.209: v4l2-input: Framerate: 30.00 fps
+17:59:45.214: v4l2-input: /dev/v4l/by-path/pci-0000:01:00.0-usb-0:4:1.0-video-index0: select timeout set to 166666 (5x frame periods)
+17:59:45.217: Switched to scene 'Class + Cam'
+17:59:45.217: ------------------------------------------------
+17:59:45.217: Loaded scenes:
+17:59:45.217: - scene 'Landing Scene':
+17:59:45.217:     - source: 'Class Banner' (image_source)
+17:59:45.217:     - source: 'Course Text' (text_ft2_source_v2)
+17:59:45.217:     - source: 'buu_eng_banner' (image_source)
+17:59:45.217: - scene 'Camera Only':
+17:59:45.217:     - source: 'Webcam' (v4l2_input)
+17:59:45.217:         - filter: 'Sharpen' (sharpness_filter_v2)
+17:59:45.217:         - filter: 'Color Correction' (color_filter_v2)
+17:59:45.217:     - source: 'buu_eng_banner' (image_source)
+17:59:45.217: - scene 'Class + Cam':
+17:59:45.217:     - source: 'Webcam' (v4l2_input)
+17:59:45.217:         - filter: 'Sharpen' (sharpness_filter_v2)
+17:59:45.217:         - filter: 'Color Correction' (color_filter_v2)
+17:59:45.217:     - source: 'Students' (xcomposite_input)
+17:59:45.217:     - source: 'buu_eng_banner' (image_source)
+17:59:45.217: - scene 'Window + Big Cam':
+17:59:45.217:     - source: 'Webcam' (v4l2_input)
+17:59:45.217:         - filter: 'Sharpen' (sharpness_filter_v2)
+17:59:45.217:         - filter: 'Color Correction' (color_filter_v2)
+17:59:45.217:     - source: 'buu_eng_banner' (image_source)
+17:59:45.217:     - source: 'Window' (xshm_input)
+17:59:45.217: - scene 'Window + Cam':
+17:59:45.217:     - source: 'Webcam' (v4l2_input)
+17:59:45.217:         - filter: 'Sharpen' (sharpness_filter_v2)
+17:59:45.217:         - filter: 'Color Correction' (color_filter_v2)
+17:59:45.217:     - source: 'Window' (xshm_input)
+17:59:45.217:     - source: 'buu_eng_banner' (image_source)
+17:59:45.217: - scene 'Window + Cam + Chat':
+17:59:45.217:     - source: 'Chat' (xcomposite_input)
+17:59:45.217:     - source: 'Webcam' (v4l2_input)
+17:59:45.217:         - filter: 'Sharpen' (sharpness_filter_v2)
+17:59:45.217:         - filter: 'Color Correction' (color_filter_v2)
+17:59:45.217:     - source: 'buu_eng_banner' (image_source)
+17:59:45.217:     - source: 'Window' (xshm_input)
+17:59:45.217: - scene 'Window + Cam + Students':
+17:59:45.217:     - source: 'Webcam' (v4l2_input)
+17:59:45.217:         - filter: 'Sharpen' (sharpness_filter_v2)
+17:59:45.217:         - filter: 'Color Correction' (color_filter_v2)
+17:59:45.217:     - source: 'Students' (xcomposite_input)
+17:59:45.217:     - source: 'Window' (xshm_input)
+17:59:45.217:     - source: 'buu_eng_banner' (image_source)
+17:59:45.217: ------------------------------------------------
+17:59:45.227: v4l2-input: decoder: failed to send frame to codec
+17:59:45.227: v4l2-input: failed to unpack jpeg or h264
+17:59:45.227: v4l2-input: /dev/v4l/by-path/pci-0000:01:00.0-usb-0:4:1.0-video-index0: Stopped capture after 0 frames
+17:59:45.464: adding 42 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Desktop Audio)
+17:59:45.464: 
+17:59:45.507: adding 21 milliseconds of audio buffering, total audio buffering is now 64 milliseconds (source: Mic/Aux)
+17:59:45.507: 
+17:59:47.685: User switched to scene 'Camera Only'
+17:59:48.796: v4l2-input: Found device 'PC-LM1E: PC-LM1E' at /dev/v4l/by-id/usb-PC-LM1E_PC-LM1E_PC-LM1E-video-index0
+17:59:48.797: v4l2-input: /dev/v4l/by-id/usb-PC-LM1E_PC-LM1E_PC-LM1E-video-index1 seems to not support video capture
+17:59:48.876: v4l2-input: Found device 'USB Video Device : USB Video De' at /dev/v4l/by-id/usb-USB_Video_Device_USB_Video_Device_20000130041415-video-index0
+17:59:48.876: v4l2-input: /dev/v4l/by-id/usb-USB_Video_Device_USB_Video_Device_20000130041415-video-index1 seems to not support video capture
+17:59:48.877: v4l2-input: Found device 'PC-LM1E: PC-LM1E' at /dev/v4l/by-path/pci-0000:01:00.0-usb-0:4:1.0-video-index0
+17:59:48.878: v4l2-input: /dev/v4l/by-path/pci-0000:01:00.0-usb-0:4:1.0-video-index1 seems to not support video capture
+17:59:48.879: v4l2-input: Found device 'PC-LM1E: PC-LM1E' at /dev/v4l/by-path/pci-0000:01:00.0-usbv2-0:4:1.0-video-index0
+17:59:48.880: v4l2-input: /dev/v4l/by-path/pci-0000:01:00.0-usbv2-0:4:1.0-video-index1 seems to not support video capture
+17:59:48.881: v4l2-input: Found device 'USB Video Device : USB Video De' at /dev/v4l/by-path/pci-0000:07:00.3-usb-0:4:1.0-video-index0
+17:59:48.881: v4l2-input: /dev/v4l/by-path/pci-0000:07:00.3-usb-0:4:1.0-video-index1 seems to not support video capture
+17:59:48.882: v4l2-input: Found device 'USB Video Device : USB Video De' at /dev/v4l/by-path/pci-0000:07:00.3-usbv3-0:4:1.0-video-index0
+17:59:48.883: v4l2-input: /dev/v4l/by-path/pci-0000:07:00.3-usbv3-0:4:1.0-video-index1 seems to not support video capture
+17:59:48.885: v4l2-input: /dev/video1 seems to not support video capture
+17:59:48.885: v4l2-input: /dev/video10 seems to not support video capture
+17:59:48.886: v4l2-input: /dev/video3 seems to not support video capture
+17:59:48.890: v4l2-input: Pixelformat: Motion-JPEG (available)
+17:59:48.890: v4l2-input: Pixelformat: H.264 (available)
+17:59:48.890: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+17:59:48.890: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+17:59:48.890: v4l2-input: Pixelformat: BGR3 (Emulated) (available)
+17:59:48.890: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+17:59:48.890: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+17:59:48.893: v4l2-input: Found input 'Camera 1' (Index 0)
+17:59:48.893: v4l2-controls: setting default for Power Line Frequency to 1
+17:59:48.893: v4l2-controls: setting default for Auto Exposure to 0
+17:59:48.894: v4l2-input: Pixelformat: Motion-JPEG (available)
+17:59:48.894: v4l2-input: Pixelformat: H.264 (available)
+17:59:48.894: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+17:59:48.894: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+17:59:48.894: v4l2-input: Pixelformat: BGR3 (Emulated) (available)
+17:59:48.894: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+17:59:48.894: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+17:59:50.592: v4l2-input: Found input 'Camera 1' (Index 0)
+17:59:50.592: v4l2-controls: setting default for Power Line Frequency to 1
+17:59:50.592: v4l2-controls: setting default for Auto Exposure to 0
+17:59:50.594: v4l2-input: Pixelformat: Motion-JPEG (available)
+17:59:50.594: v4l2-input: Pixelformat: H.264 (available)
+17:59:50.594: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+17:59:50.594: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+17:59:50.594: v4l2-input: Pixelformat: BGR3 (Emulated) (available)
+17:59:50.594: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+17:59:50.594: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+17:59:50.619: v4l2-input: Start capture from /dev/v4l/by-id/usb-PC-LM1E_PC-LM1E_PC-LM1E-video-index0
+17:59:50.620: v4l2-input: Input: 0
+17:59:50.659: v4l2-input: Resolution: 1920x1080
+17:59:50.659: v4l2-input: Pixelformat: MJPG
+17:59:50.659: v4l2-input: Linesize: 0 Bytes
+17:59:50.679: v4l2-input: Framerate: 30.00 fps
+17:59:50.686: v4l2-input: /dev/v4l/by-id/usb-PC-LM1E_PC-LM1E_PC-LM1E-video-index0: select timeout set to 166666 (5x frame periods)
+17:59:50.862: v4l2-input: /dev/v4l/by-id/usb-PC-LM1E_PC-LM1E_PC-LM1E-video-index0: select timed out
+17:59:50.862: v4l2-input: /dev/v4l/by-id/usb-PC-LM1E_PC-LM1E_PC-LM1E-video-index0: failed to log status
+18:00:07.116: v4l2-input: /dev/v4l/by-id/usb-PC-LM1E_PC-LM1E_PC-LM1E-video-index0: failed to dequeue buffer
+18:00:07.116: v4l2-input: /dev/v4l/by-id/usb-PC-LM1E_PC-LM1E_PC-LM1E-video-index0: Stopped capture after 483 frames
+18:00:07.116: v4l2-helpers: unable to stop stream
+18:00:07.134: v4l2-input: Device /dev/video2 disconnected, was opened as /dev/v4l/by-id/usb-PC-LM1E_PC-LM1E_PC-LM1E-video-index0
+18:00:07.213: v4l2-input: Found device 'USB Video Device : USB Video De' at /dev/v4l/by-id/usb-USB_Video_Device_USB_Video_Device_20000130041415-video-index0
+18:00:07.214: v4l2-input: /dev/v4l/by-id/usb-USB_Video_Device_USB_Video_Device_20000130041415-video-index1 seems to not support video capture
+18:00:07.214: v4l2-input: Found device 'USB Video Device : USB Video De' at /dev/v4l/by-path/pci-0000:07:00.3-usb-0:4:1.0-video-index0
+18:00:07.214: v4l2-input: /dev/v4l/by-path/pci-0000:07:00.3-usb-0:4:1.0-video-index1 seems to not support video capture
+18:00:07.215: v4l2-input: Found device 'USB Video Device : USB Video De' at /dev/v4l/by-path/pci-0000:07:00.3-usbv3-0:4:1.0-video-index0
+18:00:07.215: v4l2-input: /dev/v4l/by-path/pci-0000:07:00.3-usbv3-0:4:1.0-video-index1 seems to not support video capture
+18:00:07.215: v4l2-input: /dev/video1 seems to not support video capture
+18:00:07.216: v4l2-input: /dev/video10 seems to not support video capture
+18:00:07.287: v4l2-input: Found device 'USB Video Device : USB Video De' at /dev/v4l/by-id/usb-USB_Video_Device_USB_Video_Device_20000130041415-video-index0
+18:00:07.287: v4l2-input: /dev/v4l/by-id/usb-USB_Video_Device_USB_Video_Device_20000130041415-video-index1 seems to not support video capture
+18:00:07.288: v4l2-input: Found device 'USB Video Device : USB Video De' at /dev/v4l/by-path/pci-0000:07:00.3-usb-0:4:1.0-video-index0
+18:00:07.289: v4l2-input: /dev/v4l/by-path/pci-0000:07:00.3-usb-0:4:1.0-video-index1 seems to not support video capture
+18:00:07.290: v4l2-input: Found device 'USB Video Device : USB Video De' at /dev/v4l/by-path/pci-0000:07:00.3-usbv3-0:4:1.0-video-index0
+18:00:07.290: v4l2-input: /dev/v4l/by-path/pci-0000:07:00.3-usbv3-0:4:1.0-video-index1 seems to not support video capture
+18:00:07.291: v4l2-input: /dev/video1 seems to not support video capture
+18:00:07.292: v4l2-input: /dev/video10 seems to not support video capture
