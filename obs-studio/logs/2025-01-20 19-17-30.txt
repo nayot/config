@@ -1,0 +1,409 @@
+19:17:30.666: Using EGL/X11
+19:17:30.666: CPU Name: AMD Ryzen 5 2600 Six-Core Processor
+19:17:30.666: CPU Speed: 1273.089MHz
+19:17:30.667: Physical Cores: 6, Logical Cores: 12
+19:17:30.667: Physical Memory: 15403MB Total, 3963MB Free
+19:17:30.667: Kernel Version: Linux 6.11.0-13-generic
+19:17:30.667: Distribution: "Ubuntu" "24.10"
+19:17:30.667: Desktop Environment: i3 (i3)
+19:17:30.667: Session Type: x11
+19:17:30.667: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.21.1
+19:17:30.669: Qt Version: 6.6.2 (runtime), 6.6.2 (compiled)
+19:17:30.669: Portable mode: false
+19:17:30.753: OBS 30.2.3.1-2 (linux)
+19:17:30.753: ---------------------------------
+19:17:30.754: ---------------------------------
+19:17:30.754: audio settings reset:
+19:17:30.754: 	samples per sec: 48000
+19:17:30.754: 	speakers:        2
+19:17:30.754: 	max buffering:   960 milliseconds
+19:17:30.754: 	buffering type:  dynamically increasing
+19:17:30.756: ---------------------------------
+19:17:30.756: Initializing OpenGL...
+19:17:30.848: Loading up OpenGL on adapter AMD AMD Radeon RX 580 Series (radeonsi, polaris10, LLVM 19.1.0, DRM 3.58, 6.11.0-13-generic)
+19:17:30.848: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 24.2.3-1ubuntu1, shading language 4.60
+19:17:30.893: ---------------------------------
+19:17:30.893: video settings reset:
+19:17:30.893: 	base resolution:   1280x720
+19:17:30.893: 	output resolution: 1280x720
+19:17:30.893: 	downscale filter:  Lanczos
+19:17:30.893: 	fps:               30/1
+19:17:30.893: 	format:            NV12
+19:17:30.893: 	YUV mode:          Rec. 709/Partial
+19:17:30.893: NV12 texture support enabled
+19:17:30.893: P010 texture support not available
+19:17:30.900: Audio monitoring device:
+19:17:30.900: 	name: Nayot’s AirPods Pro - Find My
+19:17:30.900: 	id: bluez_output.D0_3E_07_E1_84_02.1
+19:17:30.900: ---------------------------------
+19:17:30.914: Failed to load 'en-US' text for module: 'decklink-captions.so'
+19:17:30.925: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+19:17:30.936: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+19:17:30.936: Failed to initialize module 'decklink.so'
+19:17:31.086: [pipewire] No capture sources available
+19:17:31.163: [obs-backgroundremoval] Plugin loaded successfully (version 1.1.13)
+19:17:31.191: [obs-backgroundremoval] Failed to open config file /home/nayot/.config/obs-studio/plugin_config/obs-backgroundremoval/config.ini
+19:17:31.191: [obs-backgroundremoval] Failed to open config file /home/nayot/.config/obs-studio/plugin_config/obs-backgroundremoval/config.ini
+19:17:31.660: [obs-backgroundremoval] Latest release is 
+19:17:31.787: VAAPI: API version 1.22
+19:17:31.789: FFmpeg VAAPI H264 encoding supported
+19:17:31.800: FFmpeg VAAPI AV1 encoding not supported
+19:17:31.811: FFmpeg VAAPI HEVC encoding supported
+19:17:31.885: [obs-websocket] [obs_module_load] you can haz websockets (Version: 5.5.2 | RPC Version: 1)
+19:17:31.885: [obs-websocket] [obs_module_load] Qt version (compile-time): 6.6.2 | Qt version (run-time): 6.6.2
+19:17:31.885: [obs-websocket] [obs_module_load] Linked ASIO Version: 103002
+19:17:31.933: [obs-websocket] [obs_module_load] Module loaded.
+19:17:32.050: [vlc-video]: VLC 3.0.21 Vetinari found, VLC video source enabled
+19:17:32.050: ---------------------------------
+19:17:32.050:   Loaded Modules:
+19:17:32.050:     vlc-video.so
+19:17:32.050:     text-freetype2.so
+19:17:32.050:     rtmp-services.so
+19:17:32.050:     obs-x264.so
+19:17:32.050:     obs-websocket.so
+19:17:32.050:     obs-transitions.so
+19:17:32.050:     obs-outputs.so
+19:17:32.050:     obs-filters.so
+19:17:32.050:     obs-ffmpeg.so
+19:17:32.050:     obs-backgroundremoval.so
+19:17:32.050:     linux-v4l2.so
+19:17:32.050:     linux-pulseaudio.so
+19:17:32.050:     linux-pipewire.so
+19:17:32.050:     linux-jack.so
+19:17:32.050:     linux-capture.so
+19:17:32.050:     linux-alsa.so
+19:17:32.050:     image-source.so
+19:17:32.050:     frontend-tools.so
+19:17:32.050:     decklink-output-ui.so
+19:17:32.050:     decklink-captions.so
+19:17:32.050: ---------------------------------
+19:17:32.052: ---------------------------------
+19:17:32.052: Available Encoders:
+19:17:32.052:   Video Encoders:
+19:17:32.052: 	- ffmpeg_svt_av1 (SVT-AV1)
+19:17:32.052: 	- ffmpeg_aom_av1 (AOM AV1)
+19:17:32.052: 	- ffmpeg_vaapi_tex (FFmpeg VAAPI H.264)
+19:17:32.052: 	- hevc_ffmpeg_vaapi_tex (FFmpeg VAAPI HEVC)
+19:17:32.052: 	- obs_x264 (x264)
+19:17:32.052:   Audio Encoders:
+19:17:32.052: 	- ffmpeg_aac (FFmpeg AAC)
+19:17:32.052: 	- ffmpeg_opus (FFmpeg Opus)
+19:17:32.052: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bit))
+19:17:32.052: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bit))
+19:17:32.052: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bit float))
+19:17:32.052: 	- ffmpeg_alac (FFmpeg ALAC (24-bit))
+19:17:32.052: 	- ffmpeg_flac (FFmpeg FLAC (16-bit))
+19:17:32.052: ==== Startup complete ===============================================
+19:17:32.184: All scene data cleared
+19:17:32.184: ------------------------------------------------
+19:17:32.193: pulse-input: Server name: 'PulseAudio (on PipeWire 1.2.4) 15.0.0'
+19:17:32.193: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+19:17:32.194: pulse-input: Started recording from 'alsa_output.pci-0000_06_00.1.hdmi-stereo-extra5.monitor' (default)
+19:17:32.194: [Loaded global audio device]: 'Desktop Audio'
+19:17:32.195: pulse-input: Server name: 'PulseAudio (on PipeWire 1.2.4) 15.0.0'
+19:17:32.195: pulse-input: Audio format: s16le, 48000 Hz, 1 channels
+19:17:32.195: pulse-input: Started recording from 'alsa_input.usb-V_NO_NO_NONE_Fantech_Leviosa-00.mono-fallback'
+19:17:32.199: [Loaded global audio device]: 'Mic/Aux'
+19:17:32.199:     - filter: 'Noise Suppression' (noise_suppress_filter_v2)
+19:17:32.199:     - filter: 'Gain' (gain_filter)
+19:17:32.199:     - filter: 'Expander' (expander_filter)
+19:17:32.203: xshm-input: Geometry 2560x1080 @ 0,0
+19:17:32.211: [window-capture: 'Students'] update settings:
+19:17:32.211: 	title: unknown
+19:17:32.211: 	class: unknown
+19:17:32.211: 
+19:17:32.212: [window-capture: 'Chat'] update settings:
+19:17:32.212: 	title: unknown
+19:17:32.212: 	class: unknown
+19:17:32.212: 
+19:17:32.457: v4l2-input: Start capture from /dev/v4l/by-id/usb-PC-LM1E_PC-LM1E_PC-LM1E-video-index0
+19:17:32.566: v4l2-input: Input: 0
+19:17:32.605: v4l2-input: Resolution: 1920x1080
+19:17:32.605: v4l2-input: Pixelformat: MJPG
+19:17:32.605: v4l2-input: Linesize: 0 Bytes
+19:17:32.625: v4l2-input: Framerate: 30.00 fps
+19:17:32.633: v4l2-input: /dev/v4l/by-id/usb-PC-LM1E_PC-LM1E_PC-LM1E-video-index0: select timeout set to 166666 (5x frame periods)
+19:17:32.638: [window-capture: 'htop1'] update settings:
+19:17:32.638: 	title: unknown
+19:17:32.638: 	class: unknown
+19:17:32.638: 
+19:17:32.639: [window-capture: 'hop2'] update settings:
+19:17:32.639: 	title: unknown
+19:17:32.639: 	class: unknown
+19:17:32.639: 
+19:17:32.641: [window-capture: 'htop3'] update settings:
+19:17:32.641: 	title: unknown
+19:17:32.641: 	class: unknown
+19:17:32.641: 
+19:17:32.643: [window-capture: 'htop4'] update settings:
+19:17:32.643: 	title: unknown
+19:17:32.643: 	class: unknown
+19:17:32.643: 
+19:17:32.646: v4l2-input: decoder: failed to send frame to codec
+19:17:32.646: v4l2-input: failed to unpack jpeg or h264
+19:17:32.646: v4l2-input: /dev/v4l/by-id/usb-PC-LM1E_PC-LM1E_PC-LM1E-video-index0: Stopped capture after 0 frames
+19:17:32.648: Switched to scene 'Camera Only'
+19:17:32.649: ------------------------------------------------
+19:17:32.649: Loaded scenes:
+19:17:32.649: - scene 'Landing Scene':
+19:17:32.649:     - source: 'Class Banner' (image_source)
+19:17:32.649:     - source: 'Course Text' (text_ft2_source_v2)
+19:17:32.649:     - source: 'buu_eng_banner' (image_source)
+19:17:32.649: - scene 'Camera Only':
+19:17:32.649:     - source: 'buu_eng_banner' (image_source)
+19:17:32.649:     - source: 'Webcam' (v4l2_input)
+19:17:32.649:         - filter: 'Sharpen' (sharpness_filter_v2)
+19:17:32.649:         - filter: 'Color Correction' (color_filter_v2)
+19:17:32.649: - scene 'Window + Cam':
+19:17:32.649:     - source: 'Webcam' (v4l2_input)
+19:17:32.649:         - filter: 'Sharpen' (sharpness_filter_v2)
+19:17:32.649:         - filter: 'Color Correction' (color_filter_v2)
+19:17:32.649:     - source: 'Window' (xshm_input)
+19:17:32.649:     - source: 'buu_eng_banner' (image_source)
+19:17:32.649:     - source: 'Edison's' (text_ft2_source_v2)
+19:17:32.649: - scene 'Window + Big Cam':
+19:17:32.649:     - source: 'Webcam' (v4l2_input)
+19:17:32.649:         - filter: 'Sharpen' (sharpness_filter_v2)
+19:17:32.649:         - filter: 'Color Correction' (color_filter_v2)
+19:17:32.649:     - source: 'buu_eng_banner' (image_source)
+19:17:32.649:     - source: 'Window' (xshm_input)
+19:17:32.649: - scene 'Window Only':
+19:17:32.649:     - source: 'Window' (xshm_input)
+19:17:32.649: - scene 'Window + Cam + SysMonitor':
+19:17:32.649:     - source: 'Webcam' (v4l2_input)
+19:17:32.649:         - filter: 'Sharpen' (sharpness_filter_v2)
+19:17:32.649:         - filter: 'Color Correction' (color_filter_v2)
+19:17:32.649:     - source: 'Students' (xcomposite_input)
+19:17:32.649:     - source: 'Window' (xshm_input)
+19:17:32.649:     - source: 'buu_eng_banner' (image_source)
+19:17:32.649:     - source: 'htop' (group)
+19:17:32.649:         - source: 'htop1' (xcomposite_input)
+19:17:32.649:         - source: 'hop2' (xcomposite_input)
+19:17:32.649:         - source: 'htop3' (xcomposite_input)
+19:17:32.649:         - source: 'htop4' (xcomposite_input)
+19:17:32.649: - scene 'Class + Cam':
+19:17:32.649:     - source: 'Webcam' (v4l2_input)
+19:17:32.649:         - filter: 'Sharpen' (sharpness_filter_v2)
+19:17:32.649:         - filter: 'Color Correction' (color_filter_v2)
+19:17:32.649:     - source: 'buu_eng_banner' (image_source)
+19:17:32.649:     - source: 'Students' (xcomposite_input)
+19:17:32.650: - scene 'Window + Cam + Chat':
+19:17:32.650:     - source: 'Chat' (xcomposite_input)
+19:17:32.650:     - source: 'Webcam' (v4l2_input)
+19:17:32.650:         - filter: 'Sharpen' (sharpness_filter_v2)
+19:17:32.650:         - filter: 'Color Correction' (color_filter_v2)
+19:17:32.650:     - source: 'buu_eng_banner' (image_source)
+19:17:32.650:     - source: 'Window' (xshm_input)
+19:17:32.650: - scene 'Window + Cam + Students':
+19:17:32.650:     - source: 'Webcam' (v4l2_input)
+19:17:32.650:         - filter: 'Sharpen' (sharpness_filter_v2)
+19:17:32.650:         - filter: 'Color Correction' (color_filter_v2)
+19:17:32.650:     - source: 'Students' (xcomposite_input)
+19:17:32.650:     - source: 'Window' (xshm_input)
+19:17:32.650:     - source: 'buu_eng_banner' (image_source)
+19:17:32.650: ------------------------------------------------
+19:17:32.802: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Desktop Audio)
+19:17:32.802: 
+19:17:32.866: adding 21 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Mic/Aux)
+19:17:32.866: 
+19:17:41.976: v4l2-input: Found device 'PC-LM1E: PC-LM1E' at /dev/v4l/by-id/usb-PC-LM1E_PC-LM1E_PC-LM1E-video-index0
+19:17:41.976: v4l2-input: /dev/v4l/by-id/usb-PC-LM1E_PC-LM1E_PC-LM1E-video-index1 seems to not support video capture
+19:17:41.977: v4l2-input: Found device 'PC-LM1E: PC-LM1E' at /dev/v4l/by-path/pci-0000:01:00.0-usb-0:4:1.0-video-index0
+19:17:41.978: v4l2-input: /dev/v4l/by-path/pci-0000:01:00.0-usb-0:4:1.0-video-index1 seems to not support video capture
+19:17:41.979: v4l2-input: Found device 'PC-LM1E: PC-LM1E' at /dev/v4l/by-path/pci-0000:01:00.0-usbv2-0:4:1.0-video-index0
+19:17:41.979: v4l2-input: /dev/v4l/by-path/pci-0000:01:00.0-usbv2-0:4:1.0-video-index1 seems to not support video capture
+19:17:41.981: v4l2-input: /dev/video1 seems to not support video capture
+19:17:41.981: v4l2-input: /dev/video10 seems to not support video capture
+19:17:41.985: v4l2-input: Pixelformat: Motion-JPEG (available)
+19:17:41.985: v4l2-input: Pixelformat: H.264 (available)
+19:17:41.985: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+19:17:41.985: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+19:17:41.985: v4l2-input: Pixelformat: BGR3 (Emulated) (available)
+19:17:41.985: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+19:17:41.985: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+19:17:41.988: v4l2-input: Found input 'Camera 1' (Index 0)
+19:17:41.988: v4l2-controls: setting default for Power Line Frequency to 1
+19:17:41.988: v4l2-controls: setting default for Auto Exposure to 0
+19:17:41.989: v4l2-input: Pixelformat: Motion-JPEG (available)
+19:17:41.989: v4l2-input: Pixelformat: H.264 (available)
+19:17:41.989: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+19:17:41.989: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+19:17:41.989: v4l2-input: Pixelformat: BGR3 (Emulated) (available)
+19:17:41.989: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+19:17:41.989: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+19:17:43.892: v4l2-input: Found input 'Camera 1' (Index 0)
+19:17:43.892: v4l2-controls: setting default for Power Line Frequency to 1
+19:17:43.892: v4l2-controls: setting default for Auto Exposure to 0
+19:17:43.893: v4l2-input: Pixelformat: Motion-JPEG (available)
+19:17:43.893: v4l2-input: Pixelformat: H.264 (available)
+19:17:43.893: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+19:17:43.893: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+19:17:43.893: v4l2-input: Pixelformat: BGR3 (Emulated) (available)
+19:17:43.893: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+19:17:43.893: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+19:17:43.900: v4l2-input: Start capture from /dev/v4l/by-path/pci-0000:01:00.0-usb-0:4:1.0-video-index0
+19:17:43.901: v4l2-input: Input: 0
+19:17:43.940: v4l2-input: Resolution: 1920x1080
+19:17:43.940: v4l2-input: Pixelformat: MJPG
+19:17:43.940: v4l2-input: Linesize: 0 Bytes
+19:17:43.960: v4l2-input: Framerate: 30.00 fps
+19:17:43.965: v4l2-input: /dev/v4l/by-path/pci-0000:01:00.0-usb-0:4:1.0-video-index0: select timeout set to 166666 (5x frame periods)
+19:17:44.141: v4l2-input: /dev/v4l/by-path/pci-0000:01:00.0-usb-0:4:1.0-video-index0: select timed out
+19:17:44.141: v4l2-input: /dev/v4l/by-path/pci-0000:01:00.0-usb-0:4:1.0-video-index0: failed to log status
+19:17:46.568: v4l2-input: Found input 'Camera 1' (Index 0)
+19:17:46.568: v4l2-controls: setting default for Power Line Frequency to 1
+19:17:46.568: v4l2-controls: setting default for Auto Exposure to 0
+19:17:46.569: v4l2-input: Pixelformat: Motion-JPEG (available)
+19:17:46.569: v4l2-input: Pixelformat: H.264 (available)
+19:17:46.569: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+19:17:46.569: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+19:17:46.569: v4l2-input: Pixelformat: BGR3 (Emulated) (available)
+19:17:46.569: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+19:17:46.569: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+19:17:46.627: v4l2-input: /dev/v4l/by-path/pci-0000:01:00.0-usb-0:4:1.0-video-index0: Stopped capture after 70 frames
+19:17:46.636: v4l2-input: Start capture from /dev/v4l/by-id/usb-PC-LM1E_PC-LM1E_PC-LM1E-video-index0
+19:17:46.636: v4l2-input: Input: 0
+19:17:46.676: v4l2-input: Resolution: 1920x1080
+19:17:46.676: v4l2-input: Pixelformat: MJPG
+19:17:46.676: v4l2-input: Linesize: 0 Bytes
+19:17:46.696: v4l2-input: Framerate: 30.00 fps
+19:17:46.703: v4l2-input: /dev/v4l/by-id/usb-PC-LM1E_PC-LM1E_PC-LM1E-video-index0: select timeout set to 166666 (5x frame periods)
+19:17:46.878: v4l2-input: /dev/v4l/by-id/usb-PC-LM1E_PC-LM1E_PC-LM1E-video-index0: select timed out
+19:17:46.878: v4l2-input: /dev/v4l/by-id/usb-PC-LM1E_PC-LM1E_PC-LM1E-video-index0: failed to log status
+19:18:15.489: User switched to scene 'Landing Scene'
+19:18:17.118: User switched to scene 'Camera Only'
+19:18:17.664: User switched to scene 'Window + Cam'
+19:18:21.662: User switched to scene 'Landing Scene'
+19:18:31.916: User switched to scene 'Camera Only'
+19:19:35.336: User switched to scene 'Landing Scene'
+19:19:35.824: User switched to scene 'Camera Only'
+19:19:36.334: User switched to scene 'Window + Cam'
+19:19:37.953: User switched to scene 'Landing Scene'
+19:20:42.454: User switched to scene 'Camera Only'
+19:20:42.910: User switched to scene 'Window + Cam'
+19:21:21.471: User switched to scene 'Landing Scene'
+19:21:23.881: ---------------------------------
+19:21:23.881: [FFmpeg VAAPI encoder: 'advanced_video_recording'] settings:
+19:21:23.881: 	device:       /dev/dri/by-path/pci-0000:06:00.0-render
+19:21:23.881: 	rate_control: CBR
+19:21:23.881: 	profile:      100
+19:21:23.881: 	level:        -99
+19:21:23.881: 	qp:           0
+19:21:23.881: 	bitrate:      2500
+19:21:23.881: 	maxrate:      2500
+19:21:23.881: 	keyint:       120
+19:21:23.881: 	width:        1280
+19:21:23.881: 	height:       720
+19:21:23.881: 	b-frames:     0
+19:21:23.881: 	ffmpeg opts:  
+19:21:23.881: 
+19:21:23.914: ---------------------------------
+19:21:23.914: [FFmpeg aac encoder: 'Track1'] bitrate: 160, channels: 2, channel_layout: stereo
+19:21:23.914: 
+19:21:23.920: ==== Recording Start ===============================================
+19:21:23.920: [ffmpeg muxer: 'adv_file_output'] Writing file '/home/nayot/Videos/2025-01-20 19-21-23.mp4'...
+19:21:25.984: User switched to scene 'Camera Only'
+19:21:41.471: User switched to scene 'Window + Cam'
+19:26:56.742: User switched to scene 'Camera Only'
+19:27:10.182: User switched to scene 'Window + Cam'
+19:28:52.071: User switched to scene 'Camera Only'
+19:32:51.472: User switched to scene 'Window + Cam'
+19:36:53.882: User switched to scene 'Camera Only'
+19:38:14.064: User switched to scene 'Window + Cam'
+19:42:49.286: User switched to scene 'Camera Only'
+19:46:13.796: User switched to scene 'Window + Cam'
+19:49:02.779: User switched to scene 'Camera Only'
+19:49:26.121: User switched to scene 'Landing Scene'
+19:49:27.647: [ffmpeg muxer: 'adv_file_output'] Output of file '/home/nayot/Videos/2025-01-20 19-21-23.mp4' stopped
+19:49:27.647: Output 'adv_file_output': stopping
+19:49:27.647: Output 'adv_file_output': Total frames output: 50506
+19:49:27.647: Output 'adv_file_output': Total drawn frames: 50512
+19:49:27.648: ==== Recording Stop ================================================
+19:53:00.237: User switched to scene 'Camera Only'
+19:53:01.811: User switched to scene 'Window + Cam'
+19:53:02.516: User switched to scene 'Camera Only'
+19:53:02.907: User switched to scene 'Landing Scene'
+19:53:04.062: User switched to scene 'Camera Only'
+19:53:08.162: ==== Shutting down ==================================================
+19:53:08.179: pulse-input: Stopped recording from 'alsa_output.pci-0000_06_00.1.hdmi-stereo-extra5.monitor'
+19:53:08.179: pulse-input: Got 85436 packets with 102523200 frames
+19:53:08.179: pulse-input: Stopped recording from 'alsa_input.usb-V_NO_NO_NONE_Fantech_Leviosa-00.mono-fallback'
+19:53:08.179: pulse-input: Got 85434 packets with 102520800 frames
+19:53:08.200: v4l2-input: /dev/v4l/by-id/usb-PC-LM1E_PC-LM1E_PC-LM1E-video-index0: Stopped capture after 63640 frames
+19:53:08.248: All scene data cleared
+19:53:08.248: ------------------------------------------------
+19:53:08.336: [obs-websocket] [obs_module_unload] Shutting down...
+19:53:08.336: Tried to call obs_frontend_remove_event_callback with no callbacks!
+19:53:08.336: [obs-websocket] [obs_module_unload] Finished shutting down.
+19:53:08.336: [obs-backgroundremoval] plugin unloaded
+19:53:08.344: [Scripting] Total detached callbacks: 0
+19:53:08.344: Freeing OBS context data
+19:53:08.373: == Profiler Results =============================
+19:53:08.373: run_program_init: 2265.51 ms
+19:53:08.373:  ┣OBSApp::AppInit: 25.352 ms
+19:53:08.373:  ┃ ┗OBSApp::InitLocale: 2.348 ms
+19:53:08.373:  ┗OBSApp::OBSInit: 2079.46 ms
+19:53:08.373:    ┣obs_startup: 3.176 ms
+19:53:08.373:    ┗OBSBasic::OBSInit: 1991.93 ms
+19:53:08.373:      ┣OBSBasic::InitBasicConfig: 0.107 ms
+19:53:08.373:      ┣OBSBasic::ResetAudio: 0.315 ms
+19:53:08.373:      ┣OBSBasic::ResetVideo: 145.576 ms
+19:53:08.373:      ┃ ┗obs_init_graphics: 138.733 ms
+19:53:08.373:      ┃   ┗shader compilation: 43.734 ms
+19:53:08.373:      ┣OBSBasic::InitOBSCallbacks: 0.016 ms
+19:53:08.373:      ┣OBSBasic::InitHotkeys: 0.03 ms
+19:53:08.373:      ┣obs_load_all_modules2: 1150.46 ms
+19:53:08.373:      ┃ ┣obs_init_module(decklink-captions.so): 0.002 ms
+19:53:08.373:      ┃ ┣obs_init_module(decklink-output-ui.so): 0.002 ms
+19:53:08.373:      ┃ ┣obs_init_module(decklink.so): 0.158 ms
+19:53:08.373:      ┃ ┣obs_init_module(frontend-tools.so): 39.056 ms
+19:53:08.373:      ┃ ┣obs_init_module(image-source.so): 0.014 ms
+19:53:08.373:      ┃ ┣obs_init_module(linux-alsa.so): 0.003 ms
+19:53:08.373:      ┃ ┣obs_init_module(linux-capture.so): 1.043 ms
+19:53:08.373:      ┃ ┣obs_init_module(linux-jack.so): 0.005 ms
+19:53:08.374:      ┃ ┣obs_init_module(linux-pipewire.so): 17.915 ms
+19:53:08.374:      ┃ ┣obs_init_module(linux-pulseaudio.so): 0.006 ms
+19:53:08.374:      ┃ ┣obs_init_module(linux-v4l2.so): 0.143 ms
+19:53:08.374:      ┃ ┣obs_init_module(obs-backgroundremoval.so): 497.341 ms
+19:53:08.374:      ┃ ┣obs_init_module(obs-ffmpeg.so): 36.478 ms
+19:53:08.374:      ┃ ┃ ┗nvenc_check: 1.397 ms
+19:53:08.374:      ┃ ┣obs_init_module(obs-filters.so): 0.025 ms
+19:53:08.374:      ┃ ┣obs_init_module(obs-outputs.so): 0.012 ms
+19:53:08.374:      ┃ ┣obs_init_module(obs-transitions.so): 0.015 ms
+19:53:08.374:      ┃ ┣obs_init_module(obs-websocket.so): 48.053 ms
+19:53:08.374:      ┃ ┣obs_init_module(obs-x264.so): 0.008 ms
+19:53:08.374:      ┃ ┣obs_init_module(rtmp-services.so): 20.505 ms
+19:53:08.374:      ┃ ┣obs_init_module(text-freetype2.so): 0.04 ms
+19:53:08.374:      ┃ ┗obs_init_module(vlc-video.so): 4.655 ms
+19:53:08.374:      ┣OBSBasic::InitService: 12.407 ms
+19:53:08.374:      ┣OBSBasic::ResetOutputs: 23.396 ms
+19:53:08.374:      ┣OBSBasic::CreateHotkeys: 0.027 ms
+19:53:08.374:      ┣OBSBasic::InitPrimitives: 0.812 ms
+19:53:08.374:      ┗OBSBasic::Load: 570.049 ms
+19:53:08.374: obs_hotkey_thread(25 ms): min=0.12 ms, median=0.281 ms, max=13.744 ms, 99th percentile=5.749 ms, 100% below 25 ms
+19:53:08.374: audio_thread(Audio): min=0.006 ms, median=1.055 ms, max=44.752 ms, 99th percentile=11.626 ms
+19:53:08.374:  ┗receive_audio: min=0.008 ms, median=1.117 ms, max=29.51 ms, 99th percentile=12.314 ms, 0.787683 calls per parent call
+19:53:08.374:    ┣buffer_audio: min=0.002 ms, median=0.003 ms, max=0.063 ms, 99th percentile=0.005 ms
+19:53:08.374:    ┗do_encode: min=0.065 ms, median=1.105 ms, max=29.499 ms, 99th percentile=12.302 ms
+19:53:08.374:      ┣encode(Track1): min=0.057 ms, median=1.082 ms, max=25.014 ms, 99th percentile=12.258 ms
+19:53:08.374:      ┗send_packet: min=0.002 ms, median=0.007 ms, max=25.886 ms, 99th percentile=0.052 ms
+19:53:08.374: obs_graphics_thread(33.3333 ms): min=0.205 ms, median=5.113 ms, max=465.718 ms, 99th percentile=7.291 ms, 99.9922% below 33.333 ms
+19:53:08.374:  ┣tick_sources: min=0.002 ms, median=3.041 ms, max=463.409 ms, 99th percentile=4.482 ms
+19:53:08.374:  ┣output_frame: min=0.165 ms, median=1.613 ms, max=62.968 ms, 99th percentile=2.158 ms
+19:53:08.374:  ┃ ┗gs_context(video->graphics): min=0.16 ms, median=1.608 ms, max=62.963 ms, 99th percentile=2.153 ms
+19:53:08.374:  ┃   ┣render_video: min=0.023 ms, median=1.535 ms, max=62.918 ms, 99th percentile=2.06 ms
+19:53:08.374:  ┃   ┃ ┣render_main_texture: min=0.012 ms, median=0.97 ms, max=23.91 ms, 99th percentile=1.344 ms
+19:53:08.374:  ┃   ┃ ┣render_convert_texture: min=0.025 ms, median=0.07 ms, max=43.673 ms, 99th percentile=0.121 ms, 0.78792 calls per parent call
+19:53:08.374:  ┃   ┃ ┗output_gpu_encoders: min=0.002 ms, median=0.006 ms, max=0.104 ms, 99th percentile=0.012 ms, 0.78792 calls per parent call
+19:53:08.374:  ┃   ┗gs_flush: min=0.003 ms, median=0.042 ms, max=4.119 ms, 99th percentile=0.335 ms
+19:53:08.374:  ┗render_displays: min=0.004 ms, median=0.701 ms, max=18.355 ms, 99th percentile=1.434 ms
+19:53:08.374: obs_gpu_encode_thread(33.3333 ms): min=4.15 ms, median=7.04 ms, max=154.905 ms, 99th percentile=7.552 ms, 99.998% below 33.333 ms
+19:53:08.374:  ┣gpu_encode_frame: min=4.103 ms, median=7.007 ms, max=154.024 ms, 99th percentile=7.517 ms
+19:53:08.374:  ┗send_packet: min=0.002 ms, median=0.023 ms, max=9.844 ms, 99th percentile=0.054 ms
+19:53:08.374: =================================================
+19:53:08.374: == Profiler Time Between Calls ==================
+19:53:08.374: obs_hotkey_thread(25 ms): min=25.178 ms, median=25.367 ms, max=38.832 ms, 86.0693% within ±2% of 25 ms (0% lower, 13.9307% higher)
+19:53:08.374: obs_graphics_thread(33.3333 ms): min=0.921 ms, median=33.333 ms, max=465.734 ms, 99.9158% within ±2% of 33.333 ms (0.0421171% lower, 0.0421171% higher)
+19:53:08.374: obs_gpu_encode_thread(33.3333 ms): min=5.517 ms, median=33.332 ms, max=154.911 ms, 85.7075% within ±2% of 33.333 ms (7.03439% lower, 7.25811% higher)
+19:53:08.374: =================================================
+19:53:08.447: Number of memory leaks: 2

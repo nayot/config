@@ -1,0 +1,411 @@
+18:55:45.394: Using EGL/X11
+18:55:45.394: CPU Name: AMD Ryzen 5 2600 Six-Core Processor
+18:55:45.394: CPU Speed: 1550.000MHz
+18:55:45.395: Physical Cores: 6, Logical Cores: 12
+18:55:45.395: Physical Memory: 15403MB Total, 10162MB Free
+18:55:45.395: Kernel Version: Linux 6.11.0-13-generic
+18:55:45.395: Distribution: "Ubuntu" "24.10"
+18:55:45.395: Desktop Environment: i3 (i3)
+18:55:45.395: Session Type: x11
+18:55:45.395: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.21.1
+18:55:45.397: Qt Version: 6.6.2 (runtime), 6.6.2 (compiled)
+18:55:45.397: Portable mode: false
+18:55:45.440: OBS 30.2.3.1-2 (linux)
+18:55:45.440: ---------------------------------
+18:55:45.440: ---------------------------------
+18:55:45.440: audio settings reset:
+18:55:45.440: 	samples per sec: 48000
+18:55:45.440: 	speakers:        2
+18:55:45.440: 	max buffering:   960 milliseconds
+18:55:45.440: 	buffering type:  dynamically increasing
+18:55:45.442: ---------------------------------
+18:55:45.442: Initializing OpenGL...
+18:55:45.555: Loading up OpenGL on adapter AMD AMD Radeon RX 580 Series (radeonsi, polaris10, LLVM 19.1.0, DRM 3.58, 6.11.0-13-generic)
+18:55:45.555: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 24.2.3-1ubuntu1, shading language 4.60
+18:55:45.592: ---------------------------------
+18:55:45.592: video settings reset:
+18:55:45.592: 	base resolution:   1280x720
+18:55:45.592: 	output resolution: 1280x720
+18:55:45.592: 	downscale filter:  Lanczos
+18:55:45.592: 	fps:               30/1
+18:55:45.592: 	format:            NV12
+18:55:45.592: 	YUV mode:          Rec. 709/Partial
+18:55:45.592: NV12 texture support enabled
+18:55:45.592: P010 texture support not available
+18:55:45.594: Audio monitoring device:
+18:55:45.594: 	name: Nayot’s AirPods Pro - Find My
+18:55:45.594: 	id: bluez_output.D0_3E_07_E1_84_02.1
+18:55:45.595: ---------------------------------
+18:55:45.608: Failed to load 'en-US' text for module: 'decklink-captions.so'
+18:55:45.618: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+18:55:45.629: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+18:55:45.629: Failed to initialize module 'decklink.so'
+18:55:45.741: [pipewire] No capture sources available
+18:55:45.779: [obs-backgroundremoval] Plugin loaded successfully (version 1.1.13)
+18:55:45.779: [obs-backgroundremoval] Failed to open config file /home/nayot/.config/obs-studio/plugin_config/obs-backgroundremoval/config.ini
+18:55:45.779: [obs-backgroundremoval] Failed to open config file /home/nayot/.config/obs-studio/plugin_config/obs-backgroundremoval/config.ini
+18:55:46.295: [obs-backgroundremoval] Latest release is 
+18:55:46.406: VAAPI: API version 1.22
+18:55:46.408: FFmpeg VAAPI H264 encoding supported
+18:55:46.419: FFmpeg VAAPI AV1 encoding not supported
+18:55:46.430: FFmpeg VAAPI HEVC encoding supported
+18:55:46.513: [obs-websocket] [obs_module_load] you can haz websockets (Version: 5.5.2 | RPC Version: 1)
+18:55:46.513: [obs-websocket] [obs_module_load] Qt version (compile-time): 6.6.2 | Qt version (run-time): 6.6.2
+18:55:46.513: [obs-websocket] [obs_module_load] Linked ASIO Version: 103002
+18:55:46.519: [obs-websocket] [obs_module_load] Module loaded.
+18:55:46.597: [vlc-video]: VLC 3.0.21 Vetinari found, VLC video source enabled
+18:55:46.597: ---------------------------------
+18:55:46.597:   Loaded Modules:
+18:55:46.597:     vlc-video.so
+18:55:46.597:     text-freetype2.so
+18:55:46.597:     rtmp-services.so
+18:55:46.597:     obs-x264.so
+18:55:46.597:     obs-websocket.so
+18:55:46.597:     obs-transitions.so
+18:55:46.597:     obs-outputs.so
+18:55:46.597:     obs-filters.so
+18:55:46.597:     obs-ffmpeg.so
+18:55:46.598:     obs-backgroundremoval.so
+18:55:46.598:     linux-v4l2.so
+18:55:46.598:     linux-pulseaudio.so
+18:55:46.598:     linux-pipewire.so
+18:55:46.598:     linux-jack.so
+18:55:46.598:     linux-capture.so
+18:55:46.598:     linux-alsa.so
+18:55:46.598:     image-source.so
+18:55:46.598:     frontend-tools.so
+18:55:46.598:     decklink-output-ui.so
+18:55:46.598:     decklink-captions.so
+18:55:46.598: ---------------------------------
+18:55:46.598: ---------------------------------
+18:55:46.598: Available Encoders:
+18:55:46.598:   Video Encoders:
+18:55:46.598: 	- ffmpeg_svt_av1 (SVT-AV1)
+18:55:46.598: 	- ffmpeg_aom_av1 (AOM AV1)
+18:55:46.598: 	- ffmpeg_vaapi_tex (FFmpeg VAAPI H.264)
+18:55:46.598: 	- hevc_ffmpeg_vaapi_tex (FFmpeg VAAPI HEVC)
+18:55:46.598: 	- obs_x264 (x264)
+18:55:46.598:   Audio Encoders:
+18:55:46.598: 	- ffmpeg_aac (FFmpeg AAC)
+18:55:46.598: 	- ffmpeg_opus (FFmpeg Opus)
+18:55:46.598: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bit))
+18:55:46.598: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bit))
+18:55:46.598: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bit float))
+18:55:46.598: 	- ffmpeg_alac (FFmpeg ALAC (24-bit))
+18:55:46.598: 	- ffmpeg_flac (FFmpeg FLAC (16-bit))
+18:55:46.598: ==== Startup complete ===============================================
+18:55:46.611: signal_handler_connect: signal 'file_changed' not found
+18:55:46.678: All scene data cleared
+18:55:46.678: ------------------------------------------------
+18:55:46.686: pulse-input: Server name: 'PulseAudio (on PipeWire 1.2.4) 15.0.0'
+18:55:46.686: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+18:55:46.687: pulse-input: Started recording from 'alsa_output.pci-0000_06_00.1.hdmi-stereo-extra5.monitor' (default)
+18:55:46.687: [Loaded global audio device]: 'Desktop Audio'
+18:55:46.688: pulse-input: Server name: 'PulseAudio (on PipeWire 1.2.4) 15.0.0'
+18:55:46.688: pulse-input: Audio format: s16le, 48000 Hz, 1 channels
+18:55:46.688: pulse-input: Started recording from 'alsa_input.usb-V_NO_NO_NONE_Fantech_Leviosa-00.mono-fallback'
+18:55:46.690: [Loaded global audio device]: 'Mic/Aux'
+18:55:46.690:     - filter: 'Noise Suppression' (noise_suppress_filter_v2)
+18:55:46.690:     - filter: 'Gain' (gain_filter)
+18:55:46.690:     - filter: 'Expander' (expander_filter)
+18:55:46.692: xshm-input: Geometry 2560x1080 @ 0,0
+18:55:46.696: [window-capture: 'Students'] update settings:
+18:55:46.696: 	title: unknown
+18:55:46.696: 	class: unknown
+18:55:46.696: 
+18:55:46.697: [window-capture: 'Chat'] update settings:
+18:55:46.697: 	title: unknown
+18:55:46.697: 	class: unknown
+18:55:46.697: 
+18:55:46.824: v4l2-input: Start capture from /dev/v4l/by-id/usb-PC-LM1E_PC-LM1E_PC-LM1E-video-index0
+18:55:46.932: v4l2-input: Input: 0
+18:55:46.971: v4l2-input: Resolution: 1920x1080
+18:55:46.971: v4l2-input: Pixelformat: MJPG
+18:55:46.971: v4l2-input: Linesize: 0 Bytes
+18:55:46.991: v4l2-input: Framerate: 30.00 fps
+18:55:46.998: v4l2-input: /dev/v4l/by-id/usb-PC-LM1E_PC-LM1E_PC-LM1E-video-index0: select timeout set to 166666 (5x frame periods)
+18:55:47.001: [window-capture: 'htop1'] update settings:
+18:55:47.001: 	title: unknown
+18:55:47.001: 	class: unknown
+18:55:47.001: 
+18:55:47.002: [window-capture: 'hop2'] update settings:
+18:55:47.002: 	title: unknown
+18:55:47.002: 	class: unknown
+18:55:47.002: 
+18:55:47.003: [window-capture: 'htop3'] update settings:
+18:55:47.003: 	title: unknown
+18:55:47.003: 	class: unknown
+18:55:47.003: 
+18:55:47.004: [window-capture: 'htop4'] update settings:
+18:55:47.004: 	title: unknown
+18:55:47.004: 	class: unknown
+18:55:47.004: 
+18:55:47.007: Switched to scene 'Camera Only'
+18:55:47.008: ------------------------------------------------
+18:55:47.008: Loaded scenes:
+18:55:47.008: - scene 'Landing Scene':
+18:55:47.008:     - source: 'Class Banner' (image_source)
+18:55:47.008:     - source: 'Course Text' (text_ft2_source_v2)
+18:55:47.008:     - source: 'buu_eng_banner' (image_source)
+18:55:47.008: - scene 'Camera Only':
+18:55:47.008:     - source: 'Webcam' (v4l2_input)
+18:55:47.008:         - filter: 'Sharpen' (sharpness_filter_v2)
+18:55:47.008:         - filter: 'Color Correction' (color_filter_v2)
+18:55:47.008:     - source: 'buu_eng_banner' (image_source)
+18:55:47.008: - scene 'Window + Big Cam':
+18:55:47.008:     - source: 'Webcam' (v4l2_input)
+18:55:47.008:         - filter: 'Sharpen' (sharpness_filter_v2)
+18:55:47.008:         - filter: 'Color Correction' (color_filter_v2)
+18:55:47.008:     - source: 'buu_eng_banner' (image_source)
+18:55:47.008:     - source: 'Window' (xshm_input)
+18:55:47.008: - scene 'Window + Cam':
+18:55:47.008:     - source: 'Webcam' (v4l2_input)
+18:55:47.008:         - filter: 'Sharpen' (sharpness_filter_v2)
+18:55:47.008:         - filter: 'Color Correction' (color_filter_v2)
+18:55:47.008:     - source: 'Window' (xshm_input)
+18:55:47.008:     - source: 'buu_eng_banner' (image_source)
+18:55:47.008:     - source: 'Edison's' (text_ft2_source_v2)
+18:55:47.008: - scene 'Window + Cam + SysMonitor':
+18:55:47.008:     - source: 'Webcam' (v4l2_input)
+18:55:47.008:         - filter: 'Sharpen' (sharpness_filter_v2)
+18:55:47.008:         - filter: 'Color Correction' (color_filter_v2)
+18:55:47.008:     - source: 'Students' (xcomposite_input)
+18:55:47.008:     - source: 'Window' (xshm_input)
+18:55:47.008:     - source: 'buu_eng_banner' (image_source)
+18:55:47.008:     - source: 'htop' (group)
+18:55:47.008:         - source: 'htop1' (xcomposite_input)
+18:55:47.008:         - source: 'hop2' (xcomposite_input)
+18:55:47.008:         - source: 'htop3' (xcomposite_input)
+18:55:47.008:         - source: 'htop4' (xcomposite_input)
+18:55:47.008: - scene 'Class + Cam':
+18:55:47.008:     - source: 'Webcam' (v4l2_input)
+18:55:47.008:         - filter: 'Sharpen' (sharpness_filter_v2)
+18:55:47.008:         - filter: 'Color Correction' (color_filter_v2)
+18:55:47.008:     - source: 'Students' (xcomposite_input)
+18:55:47.008:     - source: 'buu_eng_banner' (image_source)
+18:55:47.008: - scene 'Window + Cam + Chat':
+18:55:47.008:     - source: 'Chat' (xcomposite_input)
+18:55:47.008:     - source: 'Webcam' (v4l2_input)
+18:55:47.008:         - filter: 'Sharpen' (sharpness_filter_v2)
+18:55:47.008:         - filter: 'Color Correction' (color_filter_v2)
+18:55:47.008:     - source: 'buu_eng_banner' (image_source)
+18:55:47.008:     - source: 'Window' (xshm_input)
+18:55:47.008: - scene 'Window + Cam + Students':
+18:55:47.008:     - source: 'Webcam' (v4l2_input)
+18:55:47.008:         - filter: 'Sharpen' (sharpness_filter_v2)
+18:55:47.008:         - filter: 'Color Correction' (color_filter_v2)
+18:55:47.008:     - source: 'Students' (xcomposite_input)
+18:55:47.008:     - source: 'Window' (xshm_input)
+18:55:47.008:     - source: 'buu_eng_banner' (image_source)
+18:55:47.008: ------------------------------------------------
+18:55:47.173: v4l2-input: /dev/v4l/by-id/usb-PC-LM1E_PC-LM1E_PC-LM1E-video-index0: select timed out
+18:55:47.173: v4l2-input: /dev/v4l/by-id/usb-PC-LM1E_PC-LM1E_PC-LM1E-video-index0: failed to log status
+18:55:47.275: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Desktop Audio)
+18:55:47.275: 
+18:55:47.361: adding 42 milliseconds of audio buffering, total audio buffering is now 64 milliseconds (source: Mic/Aux)
+18:55:47.361: 
+18:55:50.518: adding 106 milliseconds of audio buffering, total audio buffering is now 170 milliseconds (source: Mic/Aux)
+18:55:50.518: 
+18:57:08.596: User switched to scene 'Landing Scene'
+18:58:28.644: User switched to scene 'Camera Only'
+18:58:29.153: User switched to scene 'Window + Big Cam'
+18:58:34.959: User switched to scene 'Window + Cam'
+18:58:36.555: User switched to scene 'Window + Cam + SysMonitor'
+18:58:40.402: User switched to scene 'Window + Cam'
+18:58:40.936: User switched to scene 'Window + Cam + SysMonitor'
+18:58:45.089: User switched to scene 'Class + Cam'
+18:58:48.279: User switched to scene 'Window + Cam + SysMonitor'
+18:58:48.893: User switched to scene 'Class + Cam'
+18:59:14.495: [window-capture: 'Students'] update settings:
+18:59:14.495: 	title: Launch Meeting - Zoom - Google Chrome
+18:59:14.495: 	class: google-chrome
+18:59:14.495: 
+18:59:17.495: [window-capture: 'Students'] update settings:
+18:59:17.495: 	title: Meeting
+18:59:17.495: 	class: zoom
+18:59:17.495: 
+18:59:42.952: User switched to scene 'Window + Cam + Chat'
+18:59:44.250: User switched to scene 'Window + Cam + Students'
+18:59:49.440: User switched to scene 'Class + Cam'
+19:00:28.833: User switched to scene 'Window + Cam + Chat'
+19:00:31.373: User switched to scene 'Window + Cam + Students'
+19:00:33.157: User switched to scene 'Window + Big Cam'
+19:00:52.522: User switched to scene 'Landing Scene'
+19:02:11.491: User switched to scene 'Class + Cam'
+19:02:30.315: Switched to Preview/Program mode
+19:02:30.315: ------------------------------------------------
+19:02:35.295: User switched to scene 'Landing Scene'
+19:02:36.552: User switched Program to scene 'Landing Scene'
+19:02:36.879: User switched to scene 'Class + Cam'
+19:02:52.709: User switched Program to scene 'Class + Cam'
+19:02:53.056: User switched to scene 'Landing Scene'
+19:08:59.366: User switched to scene 'Camera Only'
+19:08:59.842: User switched to scene 'Window + Big Cam'
+19:09:02.299: User switched Program to scene 'Window + Big Cam'
+19:09:02.657: User switched to scene 'Class + Cam'
+19:21:59.310: User switched to scene 'Landing Scene'
+19:22:01.393: User switched Program to scene 'Landing Scene'
+19:22:01.710: User switched to scene 'Window + Big Cam'
+19:22:24.632: User switched to scene 'Landing Scene'
+19:22:27.869: signal_handler_connect: signal 'file_changed' not found
+19:22:27.869: ==== Recording Start ===============================================
+19:22:31.590: User switched to scene 'Camera Only'
+19:22:48.266: User switched to scene 'Window + Big Cam'
+19:22:48.879: User switched to scene 'Window + Cam'
+19:22:50.143: User switched Program to scene 'Window + Cam'
+19:22:50.484: User switched to scene 'Landing Scene'
+19:24:13.643: User switched to scene 'Camera Only'
+19:24:15.233: User switched Program to scene 'Camera Only'
+19:24:15.581: User switched to scene 'Window + Cam'
+19:25:16.235: User switched Program to scene 'Window + Cam'
+19:25:16.574: User switched to scene 'Camera Only'
+19:27:15.613: User switched to scene 'Landing Scene'
+19:27:17.721: User switched Program to scene 'Landing Scene'
+19:27:18.061: User switched to scene 'Window + Cam'
+19:27:35.493: Switched to scene 'Landing Scene'
+19:27:35.494: Switched to regular Preview mode
+19:27:35.494: ------------------------------------------------
+19:28:10.384: User switched to scene 'Camera Only'
+19:28:22.463: User switched to scene 'Window + Cam'
+19:30:34.389: User switched to scene 'Window + Cam + Students'
+19:51:04.804: User switched to scene 'Window + Cam'
+19:51:07.679: User switched to scene 'Camera Only'
+19:51:11.212: Switched to Preview/Program mode
+19:51:11.212: ------------------------------------------------
+19:51:13.590: User switched to scene 'Landing Scene'
+19:51:15.111: User switched Program to scene 'Landing Scene'
+19:51:15.442: User switched to scene 'Camera Only'
+19:51:26.966: Switched to scene 'Landing Scene'
+19:51:26.971: Switched to regular Preview mode
+19:51:26.971: ------------------------------------------------
+19:51:32.839: User switched to scene 'Camera Only'
+19:51:35.969: Switched to Preview/Program mode
+19:51:35.969: ------------------------------------------------
+19:51:37.086: User switched to scene 'Landing Scene'
+19:51:39.093: User switched Program to scene 'Landing Scene'
+19:51:39.416: User switched to scene 'Camera Only'
+19:51:46.293: Switched to scene 'Landing Scene'
+19:51:46.294: Switched to regular Preview mode
+19:51:46.294: ------------------------------------------------
+19:51:47.767: User switched to scene 'Camera Only'
+19:51:55.612: User switched to scene 'Window + Big Cam'
+19:52:02.765: User switched to scene 'Window + Cam + Students'
+20:00:08.912: User switched to scene 'Camera Only'
+20:04:12.139: User switched to scene 'Window + Cam'
+20:07:29.794: User switched to scene 'Window + Cam + Students'
+20:39:43.927: User switched to scene 'Landing Scene'
+20:40:31.748: User switched to scene 'Camera Only'
+20:40:49.478: User switched to scene 'Window + Cam'
+20:46:53.640: User switched to scene 'Window + Cam + Students'
+21:16:53.524: User switched to scene 'Class + Cam'
+21:16:55.323: User switched to scene 'Window + Cam + Chat'
+21:16:55.827: User switched to scene 'Window + Cam + Students'
+21:16:56.841: User switched to scene 'Window + Big Cam'
+21:16:57.840: User switched to scene 'Camera Only'
+21:16:59.813: User switched to scene 'Window + Big Cam'
+21:17:02.871: User switched to scene 'Window + Cam + Chat'
+21:17:06.779: User switched to scene 'Window + Big Cam'
+21:17:15.054: User added scene 'Window Only'
+21:17:15.055: User added source 'Webcam' (v4l2_input) to scene 'Window Only'
+21:17:15.055: User added source 'buu_eng_banner' (image_source) to scene 'Window Only'
+21:17:15.055: User added source 'Window' (xshm_input) to scene 'Window Only'
+21:17:15.081: Switched to scene 'Window Only'
+21:17:27.301: User Removed source 'buu_eng_banner' (image_source) from scene 'Window Only'
+21:17:30.247: User Removed source 'Webcam' (v4l2_input) from scene 'Window Only'
+21:19:26.513: User switched to scene 'Window + Big Cam'
+21:19:31.183: User switched to scene 'Window + Cam'
+21:19:43.837: User switched to scene 'Window + Cam + Students'
+22:08:51.940: User switched to scene 'Window + Big Cam'
+22:09:48.728: User switched to scene 'Window + Cam + Students'
+22:10:02.061: User switched to scene 'Camera Only'
+22:12:43.809: Output 'adv_ffmpeg_output': stopping
+22:12:43.809: Output 'adv_ffmpeg_output': Total frames output: 306477
+22:12:43.809: Output 'adv_ffmpeg_output': Total drawn frames: 306479
+22:12:43.810: ==== Recording Stop ================================================
+22:14:46.917: User switched to scene 'Window + Cam'
+22:14:51.082: User switched to scene 'Window + Cam + Students'
+22:14:57.912: User switched to scene 'Window + Cam'
+22:16:38.323: User switched to scene 'Landing Scene'
+22:16:39.651: User switched to scene 'Camera Only'
+22:19:00.255: User switched to scene 'Window + Big Cam'
+22:19:08.837: User switched to scene 'Landing Scene'
+22:19:10.064: User switched to scene 'Camera Only'
+22:19:11.041: User switched to scene 'Window + Big Cam'
+22:19:17.392: User switched to scene 'Class + Cam'
+22:19:28.855: ==== Shutting down ==================================================
+22:19:28.870: pulse-input: Stopped recording from 'alsa_output.pci-0000_06_00.1.hdmi-stereo-extra5.monitor'
+22:19:28.871: pulse-input: Got 488880 packets with 586656000 frames
+22:19:28.877: pulse-input: Stopped recording from 'alsa_input.usb-V_NO_NO_NONE_Fantech_Leviosa-00.mono-fallback'
+22:19:28.877: pulse-input: Got 488879 packets with 586654800 frames
+22:19:28.898: v4l2-input: /dev/v4l/by-id/usb-PC-LM1E_PC-LM1E_PC-LM1E-video-index0: Stopped capture after 366676 frames
+22:19:28.929: All scene data cleared
+22:19:28.929: ------------------------------------------------
+22:19:29.016: [obs-websocket] [obs_module_unload] Shutting down...
+22:19:29.017: Tried to call obs_frontend_remove_event_callback with no callbacks!
+22:19:29.017: [obs-websocket] [obs_module_unload] Finished shutting down.
+22:19:29.017: [obs-backgroundremoval] plugin unloaded
+22:19:29.025: [Scripting] Total detached callbacks: 0
+22:19:29.025: Freeing OBS context data
+22:19:29.062: == Profiler Results =============================
+22:19:29.062: run_program_init: 1742.5 ms
+22:19:29.062:  ┣OBSApp::AppInit: 11.952 ms
+22:19:29.062:  ┃ ┗OBSApp::InitLocale: 0.865 ms
+22:19:29.062:  ┗OBSApp::OBSInit: 1677.24 ms
+22:19:29.062:    ┣obs_startup: 2.458 ms
+22:19:29.062:    ┗OBSBasic::OBSInit: 1631.48 ms
+22:19:29.062:      ┣OBSBasic::InitBasicConfig: 0.16 ms
+22:19:29.062:      ┣OBSBasic::ResetAudio: 0.343 ms
+22:19:29.062:      ┣OBSBasic::ResetVideo: 154.155 ms
+22:19:29.062:      ┃ ┗obs_init_graphics: 151.838 ms
+22:19:29.062:      ┃   ┗shader compilation: 36.595 ms
+22:19:29.062:      ┣OBSBasic::InitOBSCallbacks: 0.012 ms
+22:19:29.062:      ┣OBSBasic::InitHotkeys: 0.025 ms
+22:19:29.062:      ┣obs_load_all_modules2: 1002.83 ms
+22:19:29.062:      ┃ ┣obs_init_module(decklink-captions.so): 0.002 ms
+22:19:29.062:      ┃ ┣obs_init_module(decklink-output-ui.so): 0.002 ms
+22:19:29.062:      ┃ ┣obs_init_module(decklink.so): 0.149 ms
+22:19:29.062:      ┃ ┣obs_init_module(frontend-tools.so): 26.486 ms
+22:19:29.062:      ┃ ┣obs_init_module(image-source.so): 0.015 ms
+22:19:29.062:      ┃ ┣obs_init_module(linux-alsa.so): 0.004 ms
+22:19:29.062:      ┃ ┣obs_init_module(linux-capture.so): 1.135 ms
+22:19:29.062:      ┃ ┣obs_init_module(linux-jack.so): 0.005 ms
+22:19:29.063:      ┃ ┣obs_init_module(linux-pipewire.so): 17.96 ms
+22:19:29.063:      ┃ ┣obs_init_module(linux-pulseaudio.so): 0.006 ms
+22:19:29.063:      ┃ ┣obs_init_module(linux-v4l2.so): 0.142 ms
+22:19:29.063:      ┃ ┣obs_init_module(obs-backgroundremoval.so): 516.137 ms
+22:19:29.063:      ┃ ┣obs_init_module(obs-ffmpeg.so): 35.768 ms
+22:19:29.063:      ┃ ┃ ┗nvenc_check: 1.4 ms
+22:19:29.063:      ┃ ┣obs_init_module(obs-filters.so): 0.031 ms
+22:19:29.063:      ┃ ┣obs_init_module(obs-outputs.so): 0.013 ms
+22:19:29.063:      ┃ ┣obs_init_module(obs-transitions.so): 0.011 ms
+22:19:29.063:      ┃ ┣obs_init_module(obs-websocket.so): 5.949 ms
+22:19:29.063:      ┃ ┣obs_init_module(obs-x264.so): 0.004 ms
+22:19:29.063:      ┃ ┣obs_init_module(rtmp-services.so): 0.634 ms
+22:19:29.063:      ┃ ┣obs_init_module(text-freetype2.so): 0.021 ms
+22:19:29.063:      ┃ ┗obs_init_module(vlc-video.so): 0.961 ms
+22:19:29.063:      ┣OBSBasic::InitService: 1.429 ms
+22:19:29.063:      ┣OBSBasic::ResetOutputs: 11.821 ms
+22:19:29.063:      ┣OBSBasic::CreateHotkeys: 0.029 ms
+22:19:29.063:      ┣OBSBasic::InitPrimitives: 0.808 ms
+22:19:29.063:      ┗OBSBasic::Load: 399.844 ms
+22:19:29.063: obs_hotkey_thread(25 ms): min=0.089 ms, median=0.257 ms, max=51.067 ms, 99th percentile=6.295 ms, 99.9992% below 25 ms
+22:19:29.063: audio_thread(Audio): min=0.007 ms, median=0.871 ms, max=32.668 ms, 99th percentile=9.863 ms
+22:19:29.063: obs_graphics_thread(33.3333 ms): min=0.256 ms, median=8.771 ms, max=356.528 ms, 99th percentile=16.665 ms, 99.9984% below 33.333 ms
+22:19:29.063:  ┣tick_sources: min=0.002 ms, median=4.562 ms, max=353.835 ms, 99th percentile=7.71 ms
+22:19:29.063:  ┣output_frame: min=0.213 ms, median=1.651 ms, max=11.244 ms, 99th percentile=2.785 ms
+22:19:29.063:  ┃ ┣gs_context(video->graphics): min=0.209 ms, median=1.419 ms, max=11.236 ms, 99th percentile=2.386 ms
+22:19:29.063:  ┃ ┃ ┣render_video: min=0.021 ms, median=1.065 ms, max=6.662 ms, 99th percentile=1.782 ms
+22:19:29.063:  ┃ ┃ ┃ ┣render_main_texture: min=0.014 ms, median=0.991 ms, max=6.654 ms, 99th percentile=1.655 ms
+22:19:29.063:  ┃ ┃ ┃ ┣render_convert_texture: min=0.021 ms, median=0.047 ms, max=1.903 ms, 99th percentile=0.108 ms, 0.835789 calls per parent call
+22:19:29.063:  ┃ ┃ ┃ ┗stage_output_texture: min=0.011 ms, median=0.023 ms, max=0.59 ms, 99th percentile=0.058 ms, 0.835789 calls per parent call
+22:19:29.063:  ┃ ┃ ┣gs_flush: min=0.002 ms, median=0.214 ms, max=5.389 ms, 99th percentile=0.497 ms
+22:19:29.063:  ┃ ┃ ┗download_frame: min=0.002 ms, median=0.126 ms, max=3.199 ms, 99th percentile=0.258 ms, 0.835789 calls per parent call
+22:19:29.063:  ┃ ┗output_video_data: min=0.123 ms, median=0.257 ms, max=3.193 ms, 99th percentile=0.478 ms, 0.835786 calls per parent call
+22:19:29.063:  ┗render_displays: min=0.004 ms, median=2.093 ms, max=28.99 ms, 99th percentile=9.686 ms
+22:19:29.063: video_thread(video): min=0.593 ms, median=1.253 ms, max=7.562 ms, 99th percentile=2.27 ms
+22:19:29.063: =================================================
+22:19:29.063: == Profiler Time Between Calls ==================
+22:19:29.063: obs_hotkey_thread(25 ms): min=25.167 ms, median=25.345 ms, max=76.25 ms, 70.4449% within ±2% of 25 ms (0% lower, 29.5551% higher)
+22:19:29.063: obs_graphics_thread(33.3333 ms): min=10.115 ms, median=33.333 ms, max=356.541 ms, 99.9476% within ±2% of 33.333 ms (0.02618% lower, 0.02618% higher)
+22:19:29.063: =================================================
+22:19:29.162: Number of memory leaks: 2
