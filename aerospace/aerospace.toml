@@ -99,16 +99,16 @@ alt-slash = 'layout tiles horizontal vertical'
 alt-comma = 'layout accordion horizontal vertical'
 
 # See: https://nikitabobko.github.io/AeroSpace/commands#focus
-alt-h = 'focus left'
-alt-j = 'focus down'
-alt-k = 'focus up'
-alt-l = 'focus right'
+alt-left = 'focus left'
+alt-down = 'focus down'
+alt-up = 'focus up'
+alt-right = 'focus right'
 
 # See: https://nikitabobko.github.io/AeroSpace/commands#move
-alt-shift-h = 'move left'
-alt-shift-j = 'move down'
-alt-shift-k = 'move up'
-alt-shift-l = 'move right'
+alt-shift-left = 'move left'
+alt-shift-down = 'move down'
+alt-shift-up = 'move up'
+alt-shift-right = 'move right'
 
 # See: https://nikitabobko.github.io/AeroSpace/commands#resize
 alt-shift-minus = 'resize smart -50'
@@ -125,7 +125,7 @@ alt-7 = 'workspace 7'
 alt-8 = 'workspace 8'
 alt-9 = 'workspace 9'
 alt-a = 'workspace A' # In your config, you can drop workspace bindings that you don't need
-alt-b = 'workspace B'
+# alt-b = 'workspace B'
 alt-c = 'workspace C'
 alt-d = 'workspace D'
 alt-e = 'workspace E'
@@ -158,7 +158,7 @@ alt-shift-7 = 'move-node-to-workspace 7'
 alt-shift-8 = 'move-node-to-workspace 8'
 alt-shift-9 = 'move-node-to-workspace 9'
 alt-shift-a = 'move-node-to-workspace A'
-alt-shift-b = 'move-node-to-workspace B'
+# alt-shift-b = 'move-node-to-workspace B'
 alt-shift-c = 'move-node-to-workspace C'
 alt-shift-d = 'move-node-to-workspace D'
 alt-shift-e = 'move-node-to-workspace E'
@@ -192,6 +192,11 @@ alt-shift-semicolon = 'mode service'
 alt-shift-f = 'fullscreen'
 # 'service' binding mode declaration.
 # See: https://nikitabobko.github.io/AeroSpace/guide#binding-modes
+
+# Open a terminal
+alt-enter = 'exec-and-forget open -na Alacritty'
+alt-b = 'exec-and-forget open -na Firefox'
+
 [mode.service.binding]
 esc = ['reload-config', 'mode main']
 r = ['flatten-workspace-tree', 'mode main'] # reset layout
@@ -201,10 +206,10 @@ backspace = ['close-all-windows-but-current', 'mode main']
 # sticky is not yet supported https://github.com/nikitabobko/AeroSpace/issues/2
 #s = ['layout sticky tiling', 'mode main']
 
-alt-shift-h = ['join-with left', 'mode main']
-alt-shift-j = ['join-with down', 'mode main']
-alt-shift-k = ['join-with up', 'mode main']
-alt-shift-l = ['join-with right', 'mode main']
+alt-shift-left = ['join-with left', 'mode main']
+alt-shift-down = ['join-with down', 'mode main']
+alt-shift-up = ['join-with up', 'mode main']
+alt-shift-right = ['join-with right', 'mode main']
 
 down = 'volume down'
 up = 'volume up'
@@ -217,3 +222,4 @@ if.app-id = 'jp.naver.line.mac'
 [[on-window-detected]]
 if.app-id = 'com.hnc.Discord'
   run = "move-node-to-workspace C"
+
